@@ -1,0 +1,18 @@
+
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix bot: <https://w3id.org/bot#> .
+@prefix core: <https://spec.industrialontologies.org/ontology/core/Core/> .
+
+[] a sh:NodeShape ;
+   sh:targetClass bot:Space ;
+   sh:property [
+     sh:path bot:adjacentZone ;
+     sh:minCount 0 ;
+   ] .
+
+[] a sh:NodeShape ;
+   sh:property [
+     sh:path core:hasFunction ;
+     sh:minCount 0 ;
+   ] .

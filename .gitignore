@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Env / secrets
+.env
+venv/
+env/
+.venv/
+*.pem
+*.key
+*.pfx
+*.crt
+*.cer
+*.p12
+id_rsa*
+*.secrets*
+*.bak
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.code-workspace
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Logs (keep run_log.txt explicitly tracked)
+*.log
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+
+# Outputs (kept via LFS where needed)
+repro_pack/output/
+

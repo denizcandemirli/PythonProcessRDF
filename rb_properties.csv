@@ -1,0 +1,105 @@
+property,count,sample_values
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type,17692,http://www.w3.org/2002/07/owl#Class
+http://www.w3.org/2000/01/rdf-schema#label,8760,conté zona
+http://quantecton.com/kb/BuildingDesign#AdjacentComponent,6888,http://quantecton.com/kb/projects/8764c510-57b7-44c3-bddf-266d86c26380-0000c160#Curtain_Wall_ID_f06c2172-a1d8-454d-af22-b233de16a0c8-00059443
+http://www.w3.org/2000/01/rdf-schema#subClassOf,5844,N4f5d028c8fce4e5fb974e49bfefdba92
+http://www.w3.org/1999/02/22-rdf-syntax-ns#first,4638,https://spec.industrialontologies.org/ontology/core/Core/EncodedAlgorithm
+http://www.w3.org/1999/02/22-rdf-syntax-ns#rest,4638,N36527bf7d4134ccb90f787272f1dd9cc
+https://w3id.org/bot#adjacentZone,4482,http://quantecton.com/kb/projects/8764c510-57b7-44c3-bddf-266d86c26380-0000c160#WC_10_ID_f06c2172-a1d8-454d-af22-b233de16a0c8-000594dd
+https://w3id.org/bot#adjacentElement,2425,http://quantecton.com/kb/projects/8764c510-57b7-44c3-bddf-266d86c26380-0000c160#Exterior_Wall_ID_9d073b8b-deaf-4eb6-b129-285c42cf099e-00055c5a
+http://www.w3.org/2000/01/rdf-schema#comment,2388,Correspond à un niveau du bâtiment
+http://www.w3.org/2002/07/owl#onProperty,2316,http://purl.obolibrary.org/obo/BFO_0000124
+https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/naturalLanguageDefinition,2040,"relation from a material entity to an entity indicating that the measurement capability of the material entity got realized to determine the value of the entity, at some time"
+http://www.w3.org/2002/07/owl#someValuesFrom,1962,https://spec.industrialontologies.org/ontology/core/Core/EquipmentRole
+http://www.w3.org/2000/01/rdf-schema#subPropertyOf,1914,http://www.w3.org/2002/07/owl#topObjectProperty
+http://www.w3.org/2004/02/skos/core#example,1890,"When two plates are being welded at a joint, the heating of current point being welded is temporally overlapped by the cooling of a previously welded point; the receiving process is temporally overlapped by the sending process in a transaction process; Sumerian civilization (c. 3500 BCE - c. 2000 BCE) in Mesopotamia was temporally overlapped by Ancient Egyptian civilization (c. 3000 BCE - 30 BCE)."
+http://www.w3.org/2004/02/skos/core#definition,1794,b environs c =Def c occurs in b
+http://www.w3.org/2000/01/rdf-schema#range,1728,N6a0024c29b16456f9227e7046e7f12c9
+http://www.w3.org/2000/01/rdf-schema#domain,1716,http://purl.obolibrary.org/obo/BFO_0000002
+http://www.w3.org/2004/02/skos/core#prefLabel,1602,last instant of
+http://www.w3.org/2002/07/owl#intersectionOf,1224,N03b55a481f254eabb48f1622b68a6f51
+http://www.w3.org/2000/01/rdf-schema#isDefinedBy,1206,https://spec.industrialontologies.org/ontology/core/Core/
+https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/adaptedFrom,1020,https://dl.acm.org/doi/10.1145/182.358434
+https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/firstOrderLogicAxiom,1014,"functionOf(x,y) → Function(x) ∧ IndependentContinuant(y) ∧ inheresIn(x,y)"
+https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/semiFormalNaturalLanguageAxiom,1014,If x is an 'agreement' that 'is about' some 'commercial service' and that 'prescribes' some 'customer role' and some 'service provider role' then x is a 'commercial service agreement'
+https://w3id.org/bot#containsElement,986,http://quantecton.com/kb/projects/8764c510-57b7-44c3-bddf-266d86c26380-0000c160#Exterior_Wall_ID_9d073b8b-deaf-4eb6-b129-285c42cf099e-00055f7e
+http://purl.org/dc/elements/1.1/identifier,984,221-BFO
+https://spec.industrialontologies.org/ontology/core/Core/hasCapability,911,http://quantecton.com/kb/projects/8764c510-57b7-44c3-bddf-266d86c26380-0000c160#ThermalResistance_7ff0d579-c48f-4999-af59-e3ce0591d5ed-0005fa79
+https://spec.industrialontologies.org/ontology/core/Core/hasMeasuredValueAtSomeTime,911,http://quantecton.com/kb/projects/8764c510-57b7-44c3-bddf-266d86c26380-0000c160#ValueExpression_ThermalResistance_7ff0d579-c48f-4999-af59-e3ce0591d5ed-0005fa79
+https://spec.industrialontologies.org/ontology/core/Core/hasSimpleExpressionValue,911,"37898,866"
+http://www.w3.org/2002/07/owl#unionOf,816,N98471596cdc54052955bf43a57a34759
+http://purl.obolibrary.org/obo/BFO_0000171,789,http://quantecton.com/kb/projects/8764c510-57b7-44c3-bddf-266d86c26380-0000c160#Exterior_Wall_ID_ade416cd-2b74-4dcd-8ab5-31ce0060c64d-0005a9c2
+http://www.w3.org/2004/02/skos/core#altLabel,744,Bruchspannung
+http://purl.obolibrary.org/obo/BFO_0000178,661,http://quantecton.com/kb/projects/8764c510-57b7-44c3-bddf-266d86c26380-0000c160#reinforcement_ID_9d073b8b-deaf-4eb6-b129-285c42cf099e-00055d07
+http://www.w3.org/2002/07/owl#inverseOf,660,http://quantecton.com/kb/modalRelation/BFO_0000132
+https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/explanatoryNote,600,See the expanded definition under the corresponding role class. The term is formalized here as a defined class by referring to its corresponding role class and exists primarily for ontological modeling and implementation convenience.
+http://qudt.org/schema/qudt/unit,562,http://qudt.org/vocab/unit/J-PER-K
+http://quantecton.com/kb/BuildingDesign#AdjacentConnectedZone,496,http://quantecton.com/kb/projects/8764c510-57b7-44c3-bddf-266d86c26380-0000c160#Bathroom_5_ID_f06c2172-a1d8-454d-af22-b233de16a0c8-000593d4
+http://www.w3.org/2002/07/owl#complementOf,414,http://purl.obolibrary.org/obo/BFO_0000006
+https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/directSource,414,ASTM C125 − 15a: Standard Terminology Relating to Concrete and Concrete Aggregates
+https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/naturalLanguageDefinition_source,414,https://en.wikipedia.org/wiki/Electric_charge
+http://www.w3.org/2002/07/owl#equivalentClass,390,Na7f193b30ef9457fada26f817ed857a2
+https://w3id.org/bot#containsZone,385,http://quantecton.com/kb/projects/8764c510-57b7-44c3-bddf-266d86c26380-0000c160#Dressing_Room_4_ID_f06c2172-a1d8-454d-af22-b233de16a0c8-000593d1
+http://www.w3.org/2002/07/owl#allValuesFrom,288,http://purl.obolibrary.org/obo/BFO_0000015
+https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/isPrimitive,258,true
+https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/primitiveRationale,258,See the general discussion and rationale provided under information content entity.
+https://spec.industrialontologies.org/ontology/core/Core/hasFunction,217,http://quantecton.com/kb/projects/8764c510-57b7-44c3-bddf-266d86c26380-0000c160#Function_Bearing_Wall_ID_c05126f6-6491-488c-bbcb-ce45dd51fd9b-00056ce6
+http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,216,stable
+https://schema.org/domainIncludes,216,https://w3id.org/bot#Storey
+https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/firstOrderLogicDefinition,210,"LossOfRole(p) ↔ Process(p) ∧ ∃t∃t1∃r∃y(TemporalInterval(t) ∧ TemporalInterval(t1) ∧ Role(r) ∧ (IndependentContinuant(y) ∧ ¬SpatialRegion(y)) ∧ occupiesTemporalRegion(p,t) ∧ (isTemporallyOverlappedBy(t,t1) ∨ temporallyFinishes(t,t1) ∨ metBy(t,t1)) ∧ hasInput(p,r) ∧ existsAt(r,t1) ∧ hasRole(y,r) ∧ hasParticipantAtAllTimes(p,y) ∧ ∀t2(TemporalRegion(t2) ∧ existsAt(r,t2) → (occurrentPartOf(t2,t1) ∨ t2 = t1)))"
+https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/semiFormalNaturalLanguageDefinition,210,every instance of 'measured value expression' is defined exactly as an instance of 'information content entity' that 'is measured value of at some time' some 'process characteristic' or 'temporal region' or 'specifically dependent continuant'
+https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/usageNote,192,This annotation is no longer used. The isPrimitive annotation is now set to true to indicate a primitive class when necessary and sufficient conditions can not be provided.
+http://purl.org/dc/elements/1.1/contributor,180,Ludger Jansen
+https://w3id.org/bot#intersectsZone,176,http://quantecton.com/kb/projects/8764c510-57b7-44c3-bddf-266d86c26380-0000c160#Opening_Cut_ID_3094f2f5-a32a-476b-b4d9-162eeedcf9ec-00057dad
+https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/synonym,168,designed concrete
+http://www.w3.org/2002/07/owl#annotatedProperty,162,http://purl.obolibrary.org/obo/IAO_0000115
+http://www.w3.org/2002/07/owl#annotatedSource,162,http://purl.org/ieee1872-owl/cora-bare#CollectiveRoboticSystem
+http://www.w3.org/2002/07/owl#annotatedTarget,162,http://purl.org/ieee1872-owl/cora-bare#agentRobot
+http://www.geneontology.org/formats/oboInOwl#inSubset,144,http://purl.obolibrary.org/obo/pato#cell_quality
+https://schema.org/rangeIncludes,144,https://w3id.org/bot#Storey
+http://www.w3.org/2002/07/owl#disjointWith,138,https://w3id.org/bot#Zone
+http://quantecton.com/kb/BuildingDesign#VirtuallySeparatedZone,136,http://quantecton.com/kb/projects/8764c510-57b7-44c3-bddf-266d86c26380-0000c160#Dressing_Room_4_ID_f06c2172-a1d8-454d-af22-b233de16a0c8-000593d1
+https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/counterExample,132,"a blanket purchase order, commodity contract"
+http://purl.org/dc/terms/contributor,114,"Will Sobel, W. V. Sobel LLC"
+http://www.w3.org/2004/02/skos/core#editorialNote,102,It might be removed.
+http://www.geneontology.org/formats/oboInOwl#hasDbXref,96,url:http://www.oed.com/
+http://purl.obolibrary.org/obo/IAO_0000115,90,A shape that inheres in a 3 dimensional entity.
+http://www.geneontology.org/formats/oboInOwl#hasOBONamespace,90,quality
+http://www.geneontology.org/formats/oboInOwl#id,90,PATO:0001679
+https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/abbreviation,90,CEM IV
+http://www.w3.org/2002/07/owl#onClass,66,http://quantecton.com/kb/RoboticSystemDescription#PrismaticJoint
+http://www.w3.org/2004/02/skos/core#scopeNote,66,A description of three primary sorts of causal unity is provided in Basic Formal Ontology 2.0. Specification and User Guide
+http://purl.org/dc/terms/description,54,orientation cooridnate system references object
+http://purl.org/ieee1872-owl/annotation#ieee18722015AxiomNumber,54,7.8.1
+http://www.ontologyrepository.com/CommonCoreOntologies/definition,54,coordinate reference system which is usually single but may be compound
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym,48,1-D size
+http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym,48,round
+http://purl.obolibrary.org/obo/IAO_0000119,42,https://en.wikipedia.org/wiki/Plasticity_(physics)
+http://purl.org/dc/terms/creator,36,IOF Technical Oversight Board (TOB)
+http://www.w3.org/2002/07/owl#members,36,Nf39f6dd409b44ae686f076f2c25f9ba0
+http://www.w3.org/2002/07/owl#minQualifiedCardinality,36,2
+http://www.w3.org/2002/07/owl#propertyChainAxiom,36,Nb0ec29fda3424943a1238c77667fd2b8
+http://purl.obolibrary.org/obo/IAO_0000116,30,Not quite sure about this...
+http://purl.org/dc/terms/title,30,Industrial Ontology Foundry (IOF) Annotation Vocabulary
+http://www.w3.org/2002/07/owl#qualifiedCardinality,30,1
+http://www.w3.org/2000/01/rdf-schema#seeAlso,24,https://w3id.org/bot#hasSubElement
+http://www.w3.org/2002/07/owl#propertyDisjointWith,24,http://quantecton.com/kb/modalRelation/bot#intersectingElement
+http://www.w3.org/2004/02/skos/core#changeNote,24,"2022-11-30: changed various annotations properties to match revised guidance for formalizing terms as per ""Annotations Vocabulary Version 2.1"""
+http://purl.org/dc/terms/abstract,18,This is the mid-level module of the Material Science and Engineering Ontology MSEO.
+http://purl.org/dc/terms/license,18,http://opensource.org/licenses/MIT
+http://www.geneontology.org/formats/oboInOwl#creation_date,18,2011-10-12T12:33:07Z
+http://www.w3.org/2002/07/owl#deprecated,18,true
+http://purl.org/dc/terms/publisher,12,Mat-O-Lab
+http://purl.org/dc/terms/references,12,http://purl.org/dc/terms/
+https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/copyright,12,"Copyright (c) 2022, 2023, Open Applications Group"
+https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote,12,"It is suggested to use this term for input resource of the construction/manufacturing process, such as the concrete used during the casting process, wood plates used during the assembly process, etc."
+http://purl.obolibrary.org/obo/RO_0002604,6,http://purl.obolibrary.org/obo/PATO_0002008
+http://purl.org/dc/elements/1.1/date,6,2019-07-14T07:05:50+00:00
+http://purl.org/dc/terms/source,6,"EAD 150001-00-0301
+https://www.eota.eu/download?file=/2014/14-15-0001/ead%20for%20ojeu/ead%20150001-00-0301_ojeu2017.pdf"
+http://purl.org/vocab/vann/preferredNamespacePrefix,6,modalBOT
+http://www.geneontology.org/formats/oboInOwl#hasAlternativeId,6,PATO:0001203
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym,6,tubulate
+http://www.w3.org/2002/07/owl#imports,6,http://purl.obolibrary.org/obo/bfo/2020/bfo-temporalized-relations.owl
+http://www.w3.org/2002/07/owl#versionInfo,6,202301
+http://www.w3.org/2004/02/skos/core#note,6,A joint is either active/powered or passive/unpowered.

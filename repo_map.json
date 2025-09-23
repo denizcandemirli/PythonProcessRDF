@@ -1,0 +1,4842 @@
+[
+  {
+    "path": "--root",
+    "role": "misc",
+    "lang": "other",
+    "loc": 0,
+    "last_modified": "2025-09-16T13:21:11.983083+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "0000_Merged.rdf",
+    "role": "rdf_data",
+    "lang": "rdfxml",
+    "loc": 20454,
+    "last_modified": "2025-08-07T14:51:27.020143+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "Building_05_DG.rdf",
+    "role": "rdf_data",
+    "lang": "rdfxml",
+    "loc": 16822,
+    "last_modified": "2025-08-14T18:11:09.584442+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "Building_06_DG.rdf",
+    "role": "rdf_data",
+    "lang": "rdfxml",
+    "loc": 16289,
+    "last_modified": "2025-08-14T18:13:00.648973+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "combine_total_similarity.py",
+    "role": "similarity_fusion",
+    "lang": "python",
+    "loc": 234,
+    "last_modified": "2025-08-17T19:19:39.949390+00:00",
+    "imports": [
+      "import os,",
+      "import pandas",
+      "import numpy"
+    ],
+    "deps": [
+      "numpy",
+      "os",
+      "pandas"
+    ]
+  },
+  {
+    "path": "compute_similarity.py",
+    "role": "similarity_fusion",
+    "lang": "python",
+    "loc": 81,
+    "last_modified": "2025-09-16T13:49:31.090806+00:00",
+    "imports": [
+      "import os,",
+      "import numpy",
+      "import pandas"
+    ],
+    "deps": [
+      "numpy",
+      "os",
+      "pandas"
+    ]
+  },
+  {
+    "path": "compute_similarity_legacy.py",
+    "role": "similarity_fusion",
+    "lang": "python",
+    "loc": 129,
+    "last_modified": "2025-08-16T17:37:55.048508+00:00",
+    "imports": [
+      "import os,",
+      "import pandas",
+      "from collections import Counter",
+      "from itertools import combinations"
+    ],
+    "deps": [
+      "collections",
+      "itertools",
+      "os",
+      "pandas"
+    ]
+  },
+  {
+    "path": "export_m5_to_long.py",
+    "role": "feature_extraction",
+    "lang": "python",
+    "loc": 83,
+    "last_modified": "2025-09-04T12:49:28.157776+00:00",
+    "imports": [
+      "import argparse",
+      "import os",
+      "import pandas"
+    ],
+    "deps": [
+      "argparse",
+      "os",
+      "pandas"
+    ]
+  },
+  {
+    "path": "extract_features.py",
+    "role": "feature_extraction",
+    "lang": "python",
+    "loc": 102,
+    "last_modified": "2025-08-16T17:38:30.941577+00:00",
+    "imports": [
+      "import os,",
+      "from rdflib import Graph,",
+      "from collections import Counter",
+      "import pandas"
+    ],
+    "deps": [
+      "collections",
+      "os",
+      "pandas",
+      "rdflib"
+    ]
+  },
+  {
+    "path": "Freiform_Haus_DG.rdf",
+    "role": "rdf_data",
+    "lang": "rdfxml",
+    "loc": 16216,
+    "last_modified": "2025-08-13T12:31:23.133522+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "Option03_Revising_DG.rdf",
+    "role": "rdf_data",
+    "lang": "rdfxml",
+    "loc": 31366,
+    "last_modified": "2025-08-13T19:11:28.444704+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "Option04_Rev03_DG.rdf",
+    "role": "rdf_data",
+    "lang": "rdfxml",
+    "loc": 27825,
+    "last_modified": "2025-08-13T19:17:05.314889+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "pairwise_diffs_content.py",
+    "role": "misc",
+    "lang": "python",
+    "loc": 159,
+    "last_modified": "2025-08-16T20:10:21.711464+00:00",
+    "imports": [
+      "import os,",
+      "from collections import Counter",
+      "import argparse"
+    ],
+    "deps": [
+      "argparse",
+      "collections",
+      "os"
+    ]
+  },
+  {
+    "path": "pairwise_diffs_edge_sets.py",
+    "role": "misc",
+    "lang": "python",
+    "loc": 209,
+    "last_modified": "2025-08-17T17:01:01.232728+00:00",
+    "imports": [
+      "import os,",
+      "import pandas",
+      "from collections import Counter",
+      "import numpy"
+    ],
+    "deps": [
+      "collections",
+      "numpy",
+      "os",
+      "pandas"
+    ]
+  },
+  {
+    "path": "pairwise_diffs_typed_edge.py",
+    "role": "misc",
+    "lang": "python",
+    "loc": 243,
+    "last_modified": "2025-08-17T14:09:13.513084+00:00",
+    "imports": [
+      "import os,",
+      "import pandas",
+      "import numpy",
+      "from collections import Counter"
+    ],
+    "deps": [
+      "collections",
+      "numpy",
+      "os",
+      "pandas"
+    ]
+  },
+  {
+    "path": "repo_map.json",
+    "role": "misc",
+    "lang": "json",
+    "loc": 4833,
+    "last_modified": "2025-09-23T19:19:31.539533+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "requirements.txt",
+    "role": "misc",
+    "lang": "other",
+    "loc": 30,
+    "last_modified": "2025-08-16T16:49:31.437620+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "structural_extension.py",
+    "role": "structural_similarity",
+    "lang": "python",
+    "loc": 456,
+    "last_modified": "2025-08-20T11:16:13.281526+00:00",
+    "imports": [
+      "import argparse,",
+      "from typing import Dict,",
+      "import pandas",
+      "import numpy",
+      "from rdflib import Graph,"
+    ],
+    "deps": [
+      "argparse",
+      "numpy",
+      "pandas",
+      "rdflib",
+      "typing"
+    ]
+  },
+  {
+    "path": "structural_extension_v24.py",
+    "role": "structural_similarity",
+    "lang": "python",
+    "loc": 415,
+    "last_modified": "2025-08-20T11:41:38.665165+00:00",
+    "imports": [
+      "import argparse,",
+      "from typing import Dict,",
+      "import pandas",
+      "import numpy",
+      "from rdflib import Graph,"
+    ],
+    "deps": [
+      "argparse",
+      "numpy",
+      "pandas",
+      "rdflib",
+      "typing"
+    ]
+  },
+  {
+    "path": "structural_extension_v25.py",
+    "role": "structural_similarity",
+    "lang": "python",
+    "loc": 443,
+    "last_modified": "2025-08-21T16:26:27.698455+00:00",
+    "imports": [
+      "import argparse,",
+      "from typing import Dict,",
+      "import pandas",
+      "import numpy",
+      "from rdflib import Graph,"
+    ],
+    "deps": [
+      "argparse",
+      "numpy",
+      "pandas",
+      "rdflib",
+      "typing"
+    ]
+  },
+  {
+    "path": "structural_extension_v25b.py",
+    "role": "structural_similarity",
+    "lang": "python",
+    "loc": 431,
+    "last_modified": "2025-08-21T17:43:43.192697+00:00",
+    "imports": [
+      "import argparse,",
+      "from typing import Dict,",
+      "import pandas",
+      "import numpy",
+      "from rdflib import Graph,"
+    ],
+    "deps": [
+      "argparse",
+      "numpy",
+      "pandas",
+      "rdflib",
+      "typing"
+    ]
+  },
+  {
+    "path": "structural_extension_v25c.py",
+    "role": "structural_similarity",
+    "lang": "python",
+    "loc": 459,
+    "last_modified": "2025-08-21T17:44:06.573468+00:00",
+    "imports": [
+      "import argparse,",
+      "from typing import Dict,",
+      "import pandas",
+      "import numpy",
+      "from rdflib import Graph,"
+    ],
+    "deps": [
+      "argparse",
+      "numpy",
+      "pandas",
+      "rdflib",
+      "typing"
+    ]
+  },
+  {
+    "path": "structural_extension_v25d.py",
+    "role": "structural_similarity",
+    "lang": "python",
+    "loc": 469,
+    "last_modified": "2025-08-22T11:04:42.163390+00:00",
+    "imports": [
+      "import argparse,",
+      "from typing import Dict,",
+      "import pandas",
+      "import numpy",
+      "from rdflib import Graph,"
+    ],
+    "deps": [
+      "argparse",
+      "numpy",
+      "pandas",
+      "rdflib",
+      "typing"
+    ]
+  },
+  {
+    "path": "structural_extension_v25e.py",
+    "role": "structural_similarity",
+    "lang": "python",
+    "loc": 499,
+    "last_modified": "2025-08-22T11:44:13.163347+00:00",
+    "imports": [
+      "import argparse,",
+      "from typing import Dict,",
+      "import pandas",
+      "import numpy",
+      "from rdflib import Graph,",
+      "from rdflib.namespace import RDFS"
+    ],
+    "deps": [
+      "argparse",
+      "numpy",
+      "pandas",
+      "rdflib",
+      "typing"
+    ]
+  },
+  {
+    "path": "structural_extension_v25f.py",
+    "role": "structural_similarity",
+    "lang": "python",
+    "loc": 681,
+    "last_modified": "2025-08-22T12:05:12.596649+00:00",
+    "imports": [
+      "import argparse,",
+      "from typing import Dict,",
+      "import pandas",
+      "import numpy",
+      "from rdflib import Graph,",
+      "from rdflib.namespace import RDFS",
+      "from rdflib import URIRef"
+    ],
+    "deps": [
+      "argparse",
+      "numpy",
+      "pandas",
+      "rdflib",
+      "typing"
+    ]
+  },
+  {
+    "path": "structural_extension_v25g.py",
+    "role": "structural_similarity",
+    "lang": "python",
+    "loc": 714,
+    "last_modified": "2025-08-22T13:22:56.903251+00:00",
+    "imports": [
+      "import argparse,",
+      "from collections import defaultdict,",
+      "import pandas",
+      "import numpy",
+      "from rdflib import Graph,"
+    ],
+    "deps": [
+      "argparse",
+      "collections",
+      "numpy",
+      "pandas",
+      "rdflib"
+    ]
+  },
+  {
+    "path": "structural_extension_v25h.py",
+    "role": "structural_similarity",
+    "lang": "python",
+    "loc": 635,
+    "last_modified": "2025-08-22T14:17:30.630841+00:00",
+    "imports": [
+      "import argparse,",
+      "from pathlib import Path",
+      "import numpy",
+      "import pandas",
+      "from rdflib import Graph,"
+    ],
+    "deps": [
+      "argparse",
+      "numpy",
+      "pandas",
+      "pathlib",
+      "rdflib"
+    ]
+  },
+  {
+    "path": "structural_extension_v25j.py",
+    "role": "structural_similarity",
+    "lang": "python",
+    "loc": 414,
+    "last_modified": "2025-08-22T14:39:52.296848+00:00",
+    "imports": [
+      "import os,",
+      "from collections import defaultdict,",
+      "import numpy",
+      "import pandas",
+      "from rdflib import Graph,"
+    ],
+    "deps": [
+      "collections",
+      "numpy",
+      "os",
+      "pandas",
+      "rdflib"
+    ]
+  },
+  {
+    "path": "structural_extension_v25k.py",
+    "role": "structural_similarity",
+    "lang": "python",
+    "loc": 395,
+    "last_modified": "2025-08-22T14:44:54.795307+00:00",
+    "imports": [
+      "import os,",
+      "from collections import defaultdict,",
+      "import numpy",
+      "import pandas",
+      "from rdflib import Graph,"
+    ],
+    "deps": [
+      "collections",
+      "numpy",
+      "os",
+      "pandas",
+      "rdflib"
+    ]
+  },
+  {
+    "path": "structural_extension_v25l.py",
+    "role": "structural_similarity",
+    "lang": "python",
+    "loc": 506,
+    "last_modified": "2025-08-22T15:27:10.446702+00:00",
+    "imports": [
+      "import os,",
+      "from dataclasses import dataclass,",
+      "from typing import Dict,",
+      "import numpy",
+      "import pandas",
+      "from rdflib import Graph,",
+      "import glob"
+    ],
+    "deps": [
+      "dataclasses",
+      "glob",
+      "numpy",
+      "os",
+      "pandas",
+      "rdflib",
+      "typing"
+    ]
+  },
+  {
+    "path": "structural_extension_v25m.py",
+    "role": "structural_similarity",
+    "lang": "python",
+    "loc": 567,
+    "last_modified": "2025-09-03T10:29:25.184394+00:00",
+    "imports": [
+      "import os,",
+      "from collections import defaultdict,",
+      "import pandas",
+      "import numpy",
+      "import rdflib",
+      "import networkx",
+      "import glob"
+    ],
+    "deps": [
+      "collections",
+      "glob",
+      "networkx",
+      "numpy",
+      "os",
+      "pandas",
+      "rdflib"
+    ]
+  },
+  {
+    "path": "structural_extension_v25n.py",
+    "role": "structural_similarity",
+    "lang": "python",
+    "loc": 636,
+    "last_modified": "2025-09-03T12:08:31.691173+00:00",
+    "imports": [
+      "import os,",
+      "from collections import defaultdict,",
+      "import numpy",
+      "import pandas",
+      "from rdflib import Graph,"
+    ],
+    "deps": [
+      "collections",
+      "numpy",
+      "os",
+      "pandas",
+      "rdflib"
+    ]
+  },
+  {
+    "path": "structural_extension_v25o.py",
+    "role": "structural_similarity",
+    "lang": "python",
+    "loc": 392,
+    "last_modified": "2025-09-03T14:20:41.220253+00:00",
+    "imports": [
+      "import os,",
+      "import pandas",
+      "import numpy",
+      "from collections import defaultdict",
+      "import networkx",
+      "from rdflib import Graph,"
+    ],
+    "deps": [
+      "collections",
+      "networkx",
+      "numpy",
+      "os",
+      "pandas",
+      "rdflib"
+    ]
+  },
+  {
+    "path": "structural_extension_v25p.py",
+    "role": "structural_similarity",
+    "lang": "python",
+    "loc": 449,
+    "last_modified": "2025-09-04T10:00:07.739925+00:00",
+    "imports": [
+      "import os,",
+      "from collections import defaultdict,",
+      "import pandas",
+      "import numpy",
+      "import rdflib",
+      "import glob"
+    ],
+    "deps": [
+      "collections",
+      "glob",
+      "numpy",
+      "os",
+      "pandas",
+      "rdflib"
+    ]
+  },
+  {
+    "path": "structural_extension_v25p1.py",
+    "role": "structural_similarity",
+    "lang": "python",
+    "loc": 512,
+    "last_modified": "2025-09-03T19:35:50.189332+00:00",
+    "imports": [
+      "import os,",
+      "from collections import defaultdict,",
+      "import numpy",
+      "import pandas",
+      "from rdflib import Graph,"
+    ],
+    "deps": [
+      "collections",
+      "numpy",
+      "os",
+      "pandas",
+      "rdflib"
+    ]
+  },
+  {
+    "path": "structural_extension_v25p2.py",
+    "role": "structural_similarity",
+    "lang": "python",
+    "loc": 676,
+    "last_modified": "2025-09-04T19:51:53.175837+00:00",
+    "imports": [
+      "import os,",
+      "from collections import defaultdict,",
+      "import numpy",
+      "import pandas",
+      "from rdflib import Graph,"
+    ],
+    "deps": [
+      "collections",
+      "numpy",
+      "os",
+      "pandas",
+      "rdflib"
+    ]
+  },
+  {
+    "path": "subgraph_similarity.py",
+    "role": "structural_similarity",
+    "lang": "python",
+    "loc": 397,
+    "last_modified": "2025-08-17T17:42:53.578869+00:00",
+    "imports": [
+      "import os,",
+      "from typing import Dict,",
+      "import pandas",
+      "import numpy",
+      "import rdflib",
+      "import networkx",
+      "from networkx.algorithms import isomorphism"
+    ],
+    "deps": [
+      "networkx",
+      "numpy",
+      "os",
+      "pandas",
+      "rdflib",
+      "typing"
+    ]
+  },
+  {
+    "path": "subgraph_similarity_v2.py",
+    "role": "structural_similarity",
+    "lang": "python",
+    "loc": 482,
+    "last_modified": "2025-09-16T13:41:53.200050+00:00",
+    "imports": [
+      "import os,",
+      "from typing import Dict,",
+      "import pandas",
+      "import numpy",
+      "import rdflib",
+      "import networkx",
+      "from networkx.algorithms import isomorphism"
+    ],
+    "deps": [
+      "networkx",
+      "numpy",
+      "os",
+      "pandas",
+      "rdflib",
+      "typing"
+    ]
+  },
+  {
+    "path": "verify_outputs.py",
+    "role": "misc",
+    "lang": "python",
+    "loc": 106,
+    "last_modified": "2025-08-16T17:38:04.918566+00:00",
+    "imports": [
+      "import os,",
+      "from rdflib import Graph,",
+      "import pandas",
+      "from collections import Counter"
+    ],
+    "deps": [
+      "collections",
+      "os",
+      "pandas",
+      "rdflib"
+    ]
+  },
+  {
+    "path": "verify_repro_pass.py",
+    "role": "misc",
+    "lang": "python",
+    "loc": 168,
+    "last_modified": "2025-09-16T14:04:56.135514+00:00",
+    "imports": [
+      "import os,",
+      "import numpy",
+      "import pandas"
+    ],
+    "deps": [
+      "numpy",
+      "os",
+      "pandas"
+    ]
+  },
+  {
+    "path": "visualize_motif_similarity.py",
+    "role": "visualization",
+    "lang": "python",
+    "loc": 213,
+    "last_modified": "2025-08-17T19:40:21.652781+00:00",
+    "imports": [
+      "import os,",
+      "import numpy",
+      "import pandas",
+      "import matplotlib.pyplot",
+      "from scipy.cluster.hierarchy import linkage,",
+      "from scipy.spatial.distance import squareform"
+    ],
+    "deps": [
+      "matplotlib",
+      "numpy",
+      "os",
+      "pandas",
+      "scipy"
+    ]
+  },
+  {
+    "path": "visualize_predicate_bars.py",
+    "role": "visualization",
+    "lang": "python",
+    "loc": 54,
+    "last_modified": "2025-08-17T16:32:56.837716+00:00",
+    "imports": [
+      "import os,",
+      "import matplotlib.pyplot"
+    ],
+    "deps": [
+      "matplotlib",
+      "os"
+    ]
+  },
+  {
+    "path": "visualize_similarity.py",
+    "role": "visualization",
+    "lang": "python",
+    "loc": 131,
+    "last_modified": "2025-08-16T19:41:04.556414+00:00",
+    "imports": [
+      "import os,",
+      "import matplotlib.pyplot",
+      "from scipy.cluster.hierarchy import linkage,",
+      "from scipy.spatial.distance import squareform"
+    ],
+    "deps": [
+      "matplotlib",
+      "os",
+      "scipy"
+    ]
+  },
+  {
+    "path": "visualize_structural_bundle.py",
+    "role": "visualization",
+    "lang": "python",
+    "loc": 284,
+    "last_modified": "2025-09-04T19:51:05.460950+00:00",
+    "imports": [
+      "import os,",
+      "import numpy",
+      "import pandas",
+      "import matplotlib.pyplot",
+      "from scipy.cluster.hierarchy import linkage,",
+      "from scipy.spatial.distance import squareform"
+    ],
+    "deps": [
+      "matplotlib",
+      "numpy",
+      "os",
+      "pandas",
+      "scipy"
+    ]
+  },
+  {
+    "path": "visualize_structural_extension.py",
+    "role": "visualization",
+    "lang": "python",
+    "loc": 248,
+    "last_modified": "2025-09-03T12:53:38.962837+00:00",
+    "imports": [
+      "import os",
+      "import argparse",
+      "import numpy",
+      "import pandas",
+      "import matplotlib.pyplot",
+      "from scipy.spatial.distance import squareform",
+      "from scipy.cluster.hierarchy import linkage,"
+    ],
+    "deps": [
+      "argparse",
+      "matplotlib",
+      "numpy",
+      "os",
+      "pandas",
+      "scipy"
+    ]
+  },
+  {
+    "path": "visualize_structural_radar.py",
+    "role": "visualization",
+    "lang": "python",
+    "loc": 140,
+    "last_modified": "2025-09-03T14:07:27.956505+00:00",
+    "imports": [
+      "import os,",
+      "import pandas",
+      "import numpy",
+      "import matplotlib.pyplot"
+    ],
+    "deps": [
+      "matplotlib",
+      "numpy",
+      "os",
+      "pandas"
+    ]
+  },
+  {
+    "path": "visualize_structural_report.py",
+    "role": "visualization",
+    "lang": "python",
+    "loc": 275,
+    "last_modified": "2025-09-03T18:55:54.457979+00:00",
+    "imports": [
+      "import os,",
+      "import numpy",
+      "import pandas"
+    ],
+    "deps": [
+      "numpy",
+      "os",
+      "pandas"
+    ]
+  },
+  {
+    "path": "visualize_struct_matrix_heatmap.py",
+    "role": "visualization",
+    "lang": "python",
+    "loc": 206,
+    "last_modified": "2025-09-04T19:50:21.001752+00:00",
+    "imports": [
+      "import os,",
+      "import numpy",
+      "import pandas",
+      "import matplotlib.pyplot",
+      "from scipy.cluster.hierarchy import linkage,",
+      "from scipy.spatial.distance import squareform"
+    ],
+    "deps": [
+      "matplotlib",
+      "numpy",
+      "os",
+      "pandas",
+      "scipy"
+    ]
+  },
+  {
+    "path": "visualize_total_similarity.py",
+    "role": "visualization",
+    "lang": "python",
+    "loc": 195,
+    "last_modified": "2025-09-16T14:09:23.478028+00:00",
+    "imports": [
+      "import os,",
+      "import pandas",
+      "import numpy",
+      "import matplotlib.pyplot",
+      "from scipy.cluster.hierarchy import linkage,",
+      "from scipy.spatial.distance import squareform"
+    ],
+    "deps": [
+      "matplotlib",
+      "numpy",
+      "os",
+      "pandas",
+      "scipy"
+    ]
+  },
+  {
+    "path": "repro_pack/output/similarity_content_cosine.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-09-16T13:42:51.391399+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/similarity_edge_sets_jaccard.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-09-16T13:42:51.394399+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/similarity_typed_edge_cosine.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-09-16T13:42:51.392399+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/similarity_typed_edge_jaccard.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-09-16T13:42:51.393399+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Building_05_DG.rdf_adjacentElement_edges.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 105,
+    "last_modified": "2025-08-16T17:31:14.366513+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Building_05_DG.rdf_adjacentZone_edges.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 44,
+    "last_modified": "2025-08-16T17:31:14.367514+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Building_05_DG.rdf_function_type_histogram.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 3,
+    "last_modified": "2025-08-16T17:31:14.363508+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Building_05_DG.rdf_hasContinuantPart_edges.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 29,
+    "last_modified": "2025-08-16T17:31:14.368513+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Building_05_DG.rdf_intersectingElement_edges.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-08-16T17:31:14.368513+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Building_05_DG.rdf_predicate_distribution.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 100,
+    "last_modified": "2025-08-16T17:31:14.362451+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Building_05_DG.rdf_quality_type_histogram.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-08-16T17:31:14.364531+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Building_05_DG.rdf_typed_edge_profile.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 37,
+    "last_modified": "2025-08-16T17:31:14.397546+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Building_05_DG.rdf_type_distribution.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 34,
+    "last_modified": "2025-08-16T17:31:14.343934+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Building_06_DG.rdf_adjacentElement_edges.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 83,
+    "last_modified": "2025-08-16T17:31:14.886467+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Building_06_DG.rdf_adjacentZone_edges.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 66,
+    "last_modified": "2025-08-16T17:31:14.887473+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Building_06_DG.rdf_function_type_histogram.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 3,
+    "last_modified": "2025-08-16T17:31:14.883457+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Building_06_DG.rdf_hasContinuantPart_edges.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 19,
+    "last_modified": "2025-08-16T17:31:14.889463+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Building_06_DG.rdf_intersectingElement_edges.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-08-16T17:31:14.888463+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Building_06_DG.rdf_predicate_distribution.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 103,
+    "last_modified": "2025-08-16T17:31:14.881952+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Building_06_DG.rdf_quality_type_histogram.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-08-16T17:31:14.884463+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Building_06_DG.rdf_typed_edge_profile.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 40,
+    "last_modified": "2025-08-16T17:31:14.920494+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Building_06_DG.rdf_type_distribution.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 38,
+    "last_modified": "2025-08-16T17:31:14.865279+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Freiform_Haus_DG.rdf_adjacentElement_edges.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 5,
+    "last_modified": "2025-08-16T17:31:15.473283+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Freiform_Haus_DG.rdf_adjacentZone_edges.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 7,
+    "last_modified": "2025-08-16T17:31:15.474611+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Freiform_Haus_DG.rdf_function_type_histogram.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 2,
+    "last_modified": "2025-08-16T17:31:15.471282+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Freiform_Haus_DG.rdf_hasContinuantPart_edges.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 2,
+    "last_modified": "2025-08-16T17:31:15.475616+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Freiform_Haus_DG.rdf_intersectingElement_edges.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-08-16T17:31:15.474611+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Freiform_Haus_DG.rdf_predicate_distribution.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 101,
+    "last_modified": "2025-08-16T17:31:15.470283+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Freiform_Haus_DG.rdf_quality_type_histogram.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-08-16T17:31:15.472285+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Freiform_Haus_DG.rdf_typed_edge_profile.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 7,
+    "last_modified": "2025-08-16T17:31:15.505153+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Freiform_Haus_DG.rdf_type_distribution.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 31,
+    "last_modified": "2025-08-16T17:31:15.452259+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Option03_Revising_DG.rdf_adjacentElement_edges.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 1322,
+    "last_modified": "2025-08-16T17:31:16.575272+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Option03_Revising_DG.rdf_adjacentZone_edges.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 2493,
+    "last_modified": "2025-08-16T17:31:16.588291+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Option03_Revising_DG.rdf_function_type_histogram.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 3,
+    "last_modified": "2025-08-16T17:31:16.565773+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Option03_Revising_DG.rdf_hasContinuantPart_edges.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 434,
+    "last_modified": "2025-08-16T17:31:16.593291+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Option03_Revising_DG.rdf_intersectingElement_edges.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-08-16T17:31:16.589292+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Option03_Revising_DG.rdf_predicate_distribution.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 104,
+    "last_modified": "2025-08-16T17:31:16.563767+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Option03_Revising_DG.rdf_quality_type_histogram.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-08-16T17:31:16.566769+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Option03_Revising_DG.rdf_typed_edge_profile.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 95,
+    "last_modified": "2025-08-16T17:31:16.673392+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Option03_Revising_DG.rdf_type_distribution.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 47,
+    "last_modified": "2025-08-16T17:31:16.533210+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Option04_Rev03_DG.rdf_adjacentElement_edges.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 915,
+    "last_modified": "2025-08-16T17:31:17.633530+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Option04_Rev03_DG.rdf_adjacentZone_edges.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 1877,
+    "last_modified": "2025-08-16T17:31:17.644116+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Option04_Rev03_DG.rdf_function_type_histogram.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 2,
+    "last_modified": "2025-08-16T17:31:17.625900+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Option04_Rev03_DG.rdf_hasContinuantPart_edges.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 182,
+    "last_modified": "2025-08-16T17:31:17.647124+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Option04_Rev03_DG.rdf_intersectingElement_edges.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-08-16T17:31:17.645123+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Option04_Rev03_DG.rdf_predicate_distribution.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 104,
+    "last_modified": "2025-08-16T17:31:17.624960+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Option04_Rev03_DG.rdf_quality_type_histogram.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-08-16T17:31:17.626898+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Option04_Rev03_DG.rdf_typed_edge_profile.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 37,
+    "last_modified": "2025-08-16T17:31:17.717048+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/01 - Building_Information - Feature Extraction/Option04_Rev03_DG.rdf_type_distribution.csv",
+    "role": "feature_extraction",
+    "lang": "csv",
+    "loc": 39,
+    "last_modified": "2025-08-16T17:31:17.598998+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/02 - Similarity/dendrogram_final_similarity.png",
+    "role": "misc",
+    "lang": "other",
+    "loc": 65337,
+    "last_modified": "2025-08-16T19:41:27.387217+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/02 - Similarity/heatmap_final_similarity.png",
+    "role": "misc",
+    "lang": "other",
+    "loc": 70859,
+    "last_modified": "2025-08-16T19:41:27.251562+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/02 - Similarity/matrix_final_similarity.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-16T19:41:27.398272+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/02 - Similarity/similarity_combined_weighted.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 11,
+    "last_modified": "2025-08-16T17:37:05.992821+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/02 - Similarity/similarity_content_cosine.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 11,
+    "last_modified": "2025-08-16T17:37:05.988213+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/02 - Similarity/similarity_edge_sets_jaccard.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 11,
+    "last_modified": "2025-08-16T17:37:05.990212+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/02 - Similarity/similarity_typed_edge_cosine.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 11,
+    "last_modified": "2025-08-16T17:37:05.989213+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/02 - Similarity/similarity_typed_edge_jaccard.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 11,
+    "last_modified": "2025-08-16T17:37:05.989213+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/03 - Verification/verification_report.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 41,
+    "last_modified": "2025-08-16T17:38:55.441615+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/content_pairwise_manifest.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 4,
+    "last_modified": "2025-08-16T20:45:18.538886+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/content_summary_Building_05_DG.rdf__Building_06_DG.rdf.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 2,
+    "last_modified": "2025-08-16T20:45:18.462099+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/content_summary_Building_05_DG.rdf__Option04_Rev03_DG.rdf.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 2,
+    "last_modified": "2025-08-16T20:45:18.537885+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/content_summary_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 2,
+    "last_modified": "2025-08-16T20:45:18.527933+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/content_top_contributors_Building_05_DG.rdf__Building_06_DG.rdf.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 21,
+    "last_modified": "2025-08-16T20:45:18.460098+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/content_top_contributors_Building_05_DG.rdf__Option04_Rev03_DG.rdf.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 21,
+    "last_modified": "2025-08-16T20:45:18.535888+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/content_top_contributors_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 21,
+    "last_modified": "2025-08-16T20:45:18.525720+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/content_top_differences_Building_05_DG.rdf__Building_06_DG.rdf.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 21,
+    "last_modified": "2025-08-16T20:45:18.461098+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/content_top_differences_Building_05_DG.rdf__Option04_Rev03_DG.rdf.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 21,
+    "last_modified": "2025-08-16T20:45:18.536898+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/content_top_differences_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 21,
+    "last_modified": "2025-08-16T20:45:18.526717+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_pair_manifest.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 13,
+    "last_modified": "2025-08-17T17:01:12.392233+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_summary_Building_05_DG.rdf__Building_06_DG.rdf_adjacentElement.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 2,
+    "last_modified": "2025-08-17T17:01:11.630642+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_summary_Building_05_DG.rdf__Building_06_DG.rdf_adjacentZone.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 2,
+    "last_modified": "2025-08-17T17:01:11.670479+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_summary_Building_05_DG.rdf__Building_06_DG.rdf_hasContinuantPart.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 2,
+    "last_modified": "2025-08-17T17:01:11.722382+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_summary_Building_05_DG.rdf__Building_06_DG.rdf_intersectingElement.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 2,
+    "last_modified": "2025-08-17T17:01:11.686737+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_summary_Building_05_DG.rdf__Option04_Rev03_DG.rdf_adjacentElement.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 2,
+    "last_modified": "2025-08-17T17:01:12.274743+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_summary_Building_05_DG.rdf__Option04_Rev03_DG.rdf_adjacentZone.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 2,
+    "last_modified": "2025-08-17T17:01:12.354987+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_summary_Building_05_DG.rdf__Option04_Rev03_DG.rdf_hasContinuantPart.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 2,
+    "last_modified": "2025-08-17T17:01:12.389311+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_summary_Building_05_DG.rdf__Option04_Rev03_DG.rdf_intersectingElement.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 2,
+    "last_modified": "2025-08-17T17:01:12.364917+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_summary_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf_adjacentElement.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 2,
+    "last_modified": "2025-08-17T17:01:11.907661+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_summary_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf_adjacentZone.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 2,
+    "last_modified": "2025-08-17T17:01:12.113245+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_summary_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf_hasContinuantPart.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 2,
+    "last_modified": "2025-08-17T17:01:12.200948+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_summary_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf_intersectingElement.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 2,
+    "last_modified": "2025-08-17T17:01:12.125678+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_shared_Building_05_DG.rdf__Building_06_DG.rdf_adjacentElement.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-08-17T17:01:11.630642+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_shared_Building_05_DG.rdf__Building_06_DG.rdf_adjacentZone.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 2,
+    "last_modified": "2025-08-17T17:01:11.671475+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_shared_Building_05_DG.rdf__Building_06_DG.rdf_hasContinuantPart.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-08-17T17:01:11.722382+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_shared_Building_05_DG.rdf__Building_06_DG.rdf_intersectingElement.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-08-17T17:01:11.687675+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_shared_Building_05_DG.rdf__Option04_Rev03_DG.rdf_adjacentElement.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-08-17T17:01:12.274902+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_shared_Building_05_DG.rdf__Option04_Rev03_DG.rdf_adjacentZone.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-08-17T17:01:12.355917+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_shared_Building_05_DG.rdf__Option04_Rev03_DG.rdf_hasContinuantPart.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-08-17T17:01:12.390234+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_shared_Building_05_DG.rdf__Option04_Rev03_DG.rdf_intersectingElement.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-08-17T17:01:12.365917+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_shared_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf_adjacentElement.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-08-17T17:01:11.908655+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_shared_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf_adjacentZone.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-08-17T17:01:12.114249+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_shared_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf_hasContinuantPart.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-08-17T17:01:12.201947+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_shared_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf_intersectingElement.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-08-17T17:01:12.126678+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueA_Building_05_DG.rdf__Building_06_DG.rdf_adjacentElement.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 26,
+    "last_modified": "2025-08-17T17:01:11.631642+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueA_Building_05_DG.rdf__Building_06_DG.rdf_adjacentZone.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 24,
+    "last_modified": "2025-08-17T17:01:11.672475+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueA_Building_05_DG.rdf__Building_06_DG.rdf_hasContinuantPart.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 26,
+    "last_modified": "2025-08-17T17:01:11.723382+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueA_Building_05_DG.rdf__Building_06_DG.rdf_intersectingElement.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-08-17T17:01:11.687675+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueA_Building_05_DG.rdf__Option04_Rev03_DG.rdf_adjacentElement.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 26,
+    "last_modified": "2025-08-17T17:01:12.275907+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueA_Building_05_DG.rdf__Option04_Rev03_DG.rdf_adjacentZone.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 25,
+    "last_modified": "2025-08-17T17:01:12.356910+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueA_Building_05_DG.rdf__Option04_Rev03_DG.rdf_hasContinuantPart.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 26,
+    "last_modified": "2025-08-17T17:01:12.391233+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueA_Building_05_DG.rdf__Option04_Rev03_DG.rdf_intersectingElement.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-08-17T17:01:12.366917+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueA_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf_adjacentElement.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 26,
+    "last_modified": "2025-08-17T17:01:11.909656+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueA_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf_adjacentZone.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 26,
+    "last_modified": "2025-08-17T17:01:12.115249+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueA_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf_hasContinuantPart.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 26,
+    "last_modified": "2025-08-17T17:01:12.202947+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueA_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf_intersectingElement.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-08-17T17:01:12.127678+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueB_Building_05_DG.rdf__Building_06_DG.rdf_adjacentElement.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 26,
+    "last_modified": "2025-08-17T17:01:11.632641+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueB_Building_05_DG.rdf__Building_06_DG.rdf_adjacentZone.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 26,
+    "last_modified": "2025-08-17T17:01:11.673476+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueB_Building_05_DG.rdf__Building_06_DG.rdf_hasContinuantPart.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 19,
+    "last_modified": "2025-08-17T17:01:11.724381+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueB_Building_05_DG.rdf__Building_06_DG.rdf_intersectingElement.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-08-17T17:01:11.688674+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueB_Building_05_DG.rdf__Option04_Rev03_DG.rdf_adjacentElement.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 26,
+    "last_modified": "2025-08-17T17:01:12.276905+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueB_Building_05_DG.rdf__Option04_Rev03_DG.rdf_adjacentZone.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 26,
+    "last_modified": "2025-08-17T17:01:12.357939+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueB_Building_05_DG.rdf__Option04_Rev03_DG.rdf_hasContinuantPart.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 26,
+    "last_modified": "2025-08-17T17:01:12.391233+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueB_Building_05_DG.rdf__Option04_Rev03_DG.rdf_intersectingElement.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-08-17T17:01:12.366917+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueB_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf_adjacentElement.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 26,
+    "last_modified": "2025-08-17T17:01:11.910655+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueB_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf_adjacentZone.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 26,
+    "last_modified": "2025-08-17T17:01:12.116249+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueB_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf_hasContinuantPart.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 26,
+    "last_modified": "2025-08-17T17:01:12.202947+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueB_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf_intersectingElement.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-08-17T17:01:12.127678+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Typed_Edge/predicate_diffsum_03-04.png",
+    "role": "misc",
+    "lang": "other",
+    "loc": 45670,
+    "last_modified": "2025-08-17T16:36:33.296192+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Typed_Edge/predicate_diffsum_05-04.png",
+    "role": "misc",
+    "lang": "other",
+    "loc": 43968,
+    "last_modified": "2025-08-17T16:36:39.861460+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Typed_Edge/predicate_diffsum_05-06.png",
+    "role": "misc",
+    "lang": "other",
+    "loc": 45932,
+    "last_modified": "2025-08-17T16:35:05.496070+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Typed_Edge/predicate_share_03-04.png",
+    "role": "misc",
+    "lang": "other",
+    "loc": 44401,
+    "last_modified": "2025-08-17T16:36:33.159458+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Typed_Edge/predicate_share_05-04.png",
+    "role": "misc",
+    "lang": "other",
+    "loc": 46222,
+    "last_modified": "2025-08-17T16:36:39.732347+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Typed_Edge/predicate_share_05-06.png",
+    "role": "misc",
+    "lang": "other",
+    "loc": 44852,
+    "last_modified": "2025-08-17T16:35:05.352951+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Typed_Edge/typededge_pairwise_manifest.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 4,
+    "last_modified": "2025-08-17T14:09:54.764202+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Typed_Edge/typededge_predicate_contrib_Building_05_DG.rdf__Building_06_DG.rdf.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 5,
+    "last_modified": "2025-08-17T14:09:54.680601+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Typed_Edge/typededge_predicate_contrib_Building_05_DG.rdf__Option04_Rev03_DG.rdf.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 5,
+    "last_modified": "2025-08-17T14:09:54.761164+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Typed_Edge/typededge_predicate_contrib_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 5,
+    "last_modified": "2025-08-17T14:09:54.747104+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Typed_Edge/typededge_summary_Building_05_DG.rdf__Building_06_DG.rdf.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 2,
+    "last_modified": "2025-08-17T14:09:54.682118+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Typed_Edge/typededge_summary_Building_05_DG.rdf__Option04_Rev03_DG.rdf.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 2,
+    "last_modified": "2025-08-17T14:09:54.762160+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Typed_Edge/typededge_summary_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 2,
+    "last_modified": "2025-08-17T14:09:54.748096+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Typed_Edge/typededge_top_contributors_Building_05_DG.rdf__Building_06_DG.rdf.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 41,
+    "last_modified": "2025-08-17T14:09:54.679706+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Typed_Edge/typededge_top_contributors_Building_05_DG.rdf__Option04_Rev03_DG.rdf.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 41,
+    "last_modified": "2025-08-17T14:09:54.759148+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Typed_Edge/typededge_top_contributors_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 41,
+    "last_modified": "2025-08-17T14:09:54.745102+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Typed_Edge/typededge_top_differences_Building_05_DG.rdf__Building_06_DG.rdf.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 41,
+    "last_modified": "2025-08-17T14:09:54.680601+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Typed_Edge/typededge_top_differences_Building_05_DG.rdf__Option04_Rev03_DG.rdf.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 41,
+    "last_modified": "2025-08-17T14:09:54.760151+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/04 - Pairwise_Diffs/Typed_Edge/typededge_top_differences_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 41,
+    "last_modified": "2025-08-17T14:09:54.746088+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/05 - Subgraph_Similarity/motif_counts_all.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-17T17:43:43.589519+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/05 - Subgraph_Similarity/motif_library.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 9,
+    "last_modified": "2025-08-17T17:43:43.591518+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/05 - Subgraph_Similarity/motif_match_samples.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-08-17T17:43:43.590519+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/05 - Subgraph_Similarity/pairwise_structural_summary.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 11,
+    "last_modified": "2025-08-17T17:43:43.595569+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/05 - Subgraph_Similarity/similarity_motif_cosine.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-17T17:43:43.593564+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/05 - Subgraph_Similarity/similarity_motif_overlap_weighted.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-17T17:43:43.593564+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/05 - Subgraph_Similarity/similarity_structural_final.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-17T17:43:43.594564+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/05b - Subgraph_Similarity_Canon/debug_category_mix.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 26,
+    "last_modified": "2025-09-16T13:42:20.595555+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/05b - Subgraph_Similarity_Canon/debug_motif_graph_pred_counts.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 26,
+    "last_modified": "2025-09-16T13:42:20.597384+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/05b - Subgraph_Similarity_Canon/debug_predicate_map.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 234,
+    "last_modified": "2025-09-16T13:42:20.594561+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/05b - Subgraph_Similarity_Canon/motif_counts_all.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-16T13:42:20.585563+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/05b - Subgraph_Similarity_Canon/motif_library.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 12,
+    "last_modified": "2025-09-16T13:42:20.588550+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/05b - Subgraph_Similarity_Canon/motif_match_samples.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 17,
+    "last_modified": "2025-09-16T13:42:20.587551+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/05b - Subgraph_Similarity_Canon/pairwise_structural_summary.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 11,
+    "last_modified": "2025-09-16T13:42:20.592555+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/05b - Subgraph_Similarity_Canon/similarity_motif_cosine.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-16T13:42:20.589559+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/05b - Subgraph_Similarity_Canon/similarity_motif_overlap_weighted.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-16T13:42:20.590551+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/05b - Subgraph_Similarity_Canon/similarity_structural_final.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-16T13:42:20.591555+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/05c - Subgraph_Similarity_Visuals/dendrogram_motif_final.png",
+    "role": "structural_similarity",
+    "lang": "other",
+    "loc": 55770,
+    "last_modified": "2025-08-17T19:40:33.666233+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/05c - Subgraph_Similarity_Visuals/motif_contrib_Building_05_DG__Building_06_DG.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 12,
+    "last_modified": "2025-08-17T19:40:33.681078+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/05c - Subgraph_Similarity_Visuals/motif_contrib_Building_05_DG__Building_06_DG.png",
+    "role": "structural_similarity",
+    "lang": "other",
+    "loc": 92802,
+    "last_modified": "2025-08-17T19:40:33.841726+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/05c - Subgraph_Similarity_Visuals/motif_contrib_Building_05_DG__Option04_Rev03_DG.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 12,
+    "last_modified": "2025-08-17T19:40:34.014190+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/05c - Subgraph_Similarity_Visuals/motif_contrib_Building_05_DG__Option04_Rev03_DG.png",
+    "role": "structural_similarity",
+    "lang": "other",
+    "loc": 92835,
+    "last_modified": "2025-08-17T19:40:34.166701+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/05c - Subgraph_Similarity_Visuals/motif_contrib_Option03_Revising_DG__Option04_Rev03_DG.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 12,
+    "last_modified": "2025-08-17T19:40:33.852234+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/05c - Subgraph_Similarity_Visuals/motif_contrib_Option03_Revising_DG__Option04_Rev03_DG.png",
+    "role": "structural_similarity",
+    "lang": "other",
+    "loc": 94429,
+    "last_modified": "2025-08-17T19:40:34.003589+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/05c - Subgraph_Similarity_Visuals/motif_heatmap_shares.png",
+    "role": "structural_similarity",
+    "lang": "other",
+    "loc": 86029,
+    "last_modified": "2025-08-17T19:40:33.479122+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/05c - Subgraph_Similarity_Visuals/motif_shares_row_normalized.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-17T19:40:33.152110+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/06 - Total_Similarity/pairwise_total_summary.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 11,
+    "last_modified": "2025-09-16T13:49:41.893327+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/06 - Total_Similarity/total_similarity_matrix.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-16T13:49:41.895319+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/06 - Total_Similarity/weights_used.json",
+    "role": "misc",
+    "lang": "json",
+    "loc": 21,
+    "last_modified": "2025-09-04T21:19:52.692596+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/06b - Total_Similarity_Visuals/total_contrib_Building_05_DG__Building_06_DG.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 5,
+    "last_modified": "2025-09-16T14:10:13.892916+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/06b - Total_Similarity_Visuals/total_contrib_Building_05_DG__Building_06_DG.png",
+    "role": "misc",
+    "lang": "other",
+    "loc": 51276,
+    "last_modified": "2025-09-16T14:10:14.011770+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/06b - Total_Similarity_Visuals/total_contrib_Building_05_DG__Option04_Rev03_DG.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 5,
+    "last_modified": "2025-09-16T14:10:14.149307+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/06b - Total_Similarity_Visuals/total_contrib_Building_05_DG__Option04_Rev03_DG.png",
+    "role": "misc",
+    "lang": "other",
+    "loc": 50977,
+    "last_modified": "2025-09-16T14:10:14.267435+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/06b - Total_Similarity_Visuals/total_contrib_Freiform_Haus_DG__Option03_Revising_DG.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 5,
+    "last_modified": "2025-09-04T21:36:07.501293+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/06b - Total_Similarity_Visuals/total_contrib_Freiform_Haus_DG__Option03_Revising_DG.png",
+    "role": "misc",
+    "lang": "other",
+    "loc": 51383,
+    "last_modified": "2025-09-04T21:36:07.662667+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/06b - Total_Similarity_Visuals/total_contrib_Option03_Revising_DG__Option04_Rev03_DG.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 5,
+    "last_modified": "2025-09-16T14:10:14.020404+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/06b - Total_Similarity_Visuals/total_contrib_Option03_Revising_DG__Option04_Rev03_DG.png",
+    "role": "misc",
+    "lang": "other",
+    "loc": 52912,
+    "last_modified": "2025-09-16T14:10:14.139761+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/06b - Total_Similarity_Visuals/total_dendrogram.png",
+    "role": "misc",
+    "lang": "other",
+    "loc": 64064,
+    "last_modified": "2025-09-16T14:10:13.867399+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/06b - Total_Similarity_Visuals/total_heatmap.png",
+    "role": "misc",
+    "lang": "other",
+    "loc": 97034,
+    "last_modified": "2025-09-16T14:10:13.696037+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/06b - Total_Similarity_Visuals/refresh_2025-09-16/total_contrib_Building_05_DG__Building_06_DG.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 5,
+    "last_modified": "2025-09-16T14:17:47.993414+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/06b - Total_Similarity_Visuals/refresh_2025-09-16/total_contrib_Building_05_DG__Building_06_DG.png",
+    "role": "misc",
+    "lang": "other",
+    "loc": 51276,
+    "last_modified": "2025-09-16T14:17:48.121253+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/06b - Total_Similarity_Visuals/refresh_2025-09-16/total_contrib_Building_05_DG__Option04_Rev03_DG.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 5,
+    "last_modified": "2025-09-16T14:17:48.259718+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/06b - Total_Similarity_Visuals/refresh_2025-09-16/total_contrib_Building_05_DG__Option04_Rev03_DG.png",
+    "role": "misc",
+    "lang": "other",
+    "loc": 50977,
+    "last_modified": "2025-09-16T14:17:48.381398+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/06b - Total_Similarity_Visuals/refresh_2025-09-16/total_contrib_Option03_Revising_DG__Option04_Rev03_DG.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 5,
+    "last_modified": "2025-09-16T14:17:48.130770+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/06b - Total_Similarity_Visuals/refresh_2025-09-16/total_contrib_Option03_Revising_DG__Option04_Rev03_DG.png",
+    "role": "misc",
+    "lang": "other",
+    "loc": 52912,
+    "last_modified": "2025-09-16T14:17:48.250212+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/06b - Total_Similarity_Visuals/refresh_2025-09-16/total_dendrogram.png",
+    "role": "misc",
+    "lang": "other",
+    "loc": 64064,
+    "last_modified": "2025-09-16T14:17:47.975092+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/06b - Total_Similarity_Visuals/refresh_2025-09-16/total_heatmap.png",
+    "role": "misc",
+    "lang": "other",
+    "loc": 97034,
+    "last_modified": "2025-09-16T14:17:47.804235+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension/pairwise_structural_summary.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 11,
+    "last_modified": "2025-08-20T11:18:12.740829+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension/struct_functions_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 9,
+    "last_modified": "2025-08-20T11:18:12.608085+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension/struct_motif_counts.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-20T11:18:12.661514+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension/struct_motif_shares.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-20T11:18:12.662670+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension/struct_similarity_matrix.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-20T11:18:12.737992+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension/struct_system_scores.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-20T11:18:12.732987+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension/struct_types_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 14,
+    "last_modified": "2025-08-20T11:18:12.608085+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v24/pairwise_structural_summary.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 11,
+    "last_modified": "2025-08-20T11:41:47.634591+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v24/struct_functions_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-08-20T11:41:47.496780+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v24/struct_motif_counts.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-20T11:41:47.571888+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v24/struct_motif_shares.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-20T11:41:47.572894+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v24/struct_similarity_matrix.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-20T11:41:47.633086+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v24/struct_system_scores.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-20T11:41:47.632085+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v24/struct_types_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-20T11:41:47.495792+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25/pairwise_structural_summary.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 11,
+    "last_modified": "2025-08-20T15:49:41.236188+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25/struct_functions_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-08-20T15:49:40.991763+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25/struct_motif_counts.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-20T15:49:41.142366+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25/struct_motif_shares.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-20T15:49:41.143871+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25/struct_similarity_matrix.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-20T15:49:41.235976+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25/struct_system_scores.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-20T15:49:41.233948+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25/struct_types_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 3,
+    "last_modified": "2025-08-20T15:49:40.990758+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25b/pairwise_structural_summary.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 11,
+    "last_modified": "2025-08-21T16:38:22.280949+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25b/struct_functions_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-08-21T16:38:22.006932+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25b/struct_motif_counts.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-21T16:38:22.173854+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25b/struct_motif_shares.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-21T16:38:22.174854+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25b/struct_similarity_matrix.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-21T16:38:22.278943+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25b/struct_system_scores.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-21T16:38:22.275180+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25b/struct_types_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 3,
+    "last_modified": "2025-08-21T16:38:22.006932+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25d/pairwise_structural_summary.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 11,
+    "last_modified": "2025-08-22T11:05:03.123745+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25d/struct_data_availability.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T11:05:02.811476+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25d/struct_functions_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 9,
+    "last_modified": "2025-08-22T11:05:02.796470+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25d/struct_functions_shares_wide.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T11:05:02.810471+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25d/struct_motif_counts.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T11:05:02.998984+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25d/struct_motif_densities_per100.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T11:05:03.117209+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25d/struct_motif_shares.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T11:05:02.998984+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25d/struct_score_components.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T11:05:03.119210+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25d/struct_similarity_matrix.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T11:05:03.121322+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25d/struct_system_scores.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T11:05:03.116211+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25d/struct_types_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 3,
+    "last_modified": "2025-08-22T11:05:02.795474+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25d_allfunc/pairwise_structural_summary.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 11,
+    "last_modified": "2025-08-21T18:11:51.457071+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25d_allfunc/struct_data_availability.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-21T18:11:51.189794+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25d_allfunc/struct_functions_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 9,
+    "last_modified": "2025-08-21T18:11:51.184048+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25d_allfunc/struct_functions_shares_wide.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-21T18:11:51.188758+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25d_allfunc/struct_motif_counts.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-21T18:11:51.350337+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25d_allfunc/struct_motif_densities_per100.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-21T18:11:51.453067+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25d_allfunc/struct_motif_shares.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-21T18:11:51.351340+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25d_allfunc/struct_score_components.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-21T18:11:51.454070+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25d_allfunc/struct_similarity_matrix.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-21T18:11:51.456070+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25d_allfunc/struct_system_scores.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-21T18:11:51.452564+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25d_allfunc/struct_types_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 3,
+    "last_modified": "2025-08-21T18:11:51.183038+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25e/pairwise_structural_summary.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 11,
+    "last_modified": "2025-08-22T11:44:38.287615+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25e/struct_data_availability.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T11:44:37.626834+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25e/struct_functions_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 9,
+    "last_modified": "2025-08-22T11:44:37.615233+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25e/struct_functions_shares_wide.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T11:44:37.625820+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25e/struct_motif_counts.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T11:44:38.110547+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25e/struct_motif_densities_per100.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T11:44:38.282530+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25e/struct_motif_shares.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T11:44:38.111553+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25e/struct_score_components.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T11:44:38.283532+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25e/struct_similarity_matrix.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T11:44:38.286558+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25e/struct_system_scores.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T11:44:38.281530+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25e/struct_types_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 15,
+    "last_modified": "2025-08-22T11:44:37.614239+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25f/pairwise_structural_summary.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 11,
+    "last_modified": "2025-08-22T12:05:36.398241+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25f/struct_data_availability.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T12:05:36.249098+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25f/struct_functions_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 9,
+    "last_modified": "2025-08-22T12:05:36.243098+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25f/struct_functions_shares_wide.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T12:05:36.248101+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25f/struct_motif_counts.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T12:05:36.368272+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25f/struct_motif_densities_per100.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T12:05:36.393809+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25f/struct_motif_shares.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T12:05:36.370286+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25f/struct_score_components.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T12:05:36.395344+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25f/struct_similarity_matrix.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T12:05:36.397249+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25f/struct_system_scores.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T12:05:36.391817+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25f/struct_types_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 22,
+    "last_modified": "2025-08-22T12:05:36.242098+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25f/type_mapping_hits.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 92,
+    "last_modified": "2025-08-22T12:05:36.252100+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25f/type_mapping_unknown.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 89,
+    "last_modified": "2025-08-22T12:05:36.260607+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25g/pairwise_structural_summary.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 11,
+    "last_modified": "2025-08-22T13:23:12.754666+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25g/struct_data_availability.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T13:23:12.756668+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25g/struct_functions_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 21,
+    "last_modified": "2025-08-22T13:23:12.747660+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25g/struct_functions_shares_wide.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T13:23:12.749659+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25g/struct_motif_counts.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T13:23:12.750661+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25g/struct_motif_densities_per100.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T13:23:12.751661+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25g/struct_motif_shares.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T13:23:12.751661+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25g/struct_score_components.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T13:23:12.755669+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25g/struct_similarity_matrix.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T13:23:12.753661+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25g/struct_system_scores.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T13:23:12.752661+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25g/struct_types_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 11,
+    "last_modified": "2025-08-22T13:23:12.747660+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25g/type_mapping_hits.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 11,
+    "last_modified": "2025-08-22T13:23:12.726144+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25g/type_mapping_unknown.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 33,
+    "last_modified": "2025-08-22T13:23:12.730145+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25h/motif_proxy_edges.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-08-22T14:17:44.522705+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25h/pairwise_structural_summary.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 11,
+    "last_modified": "2025-08-22T14:17:44.535710+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25h/struct_data_availability.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T14:17:44.500072+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25h/struct_functions_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 4,
+    "last_modified": "2025-08-22T14:17:44.452050+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25h/struct_functions_shares_wide.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 4,
+    "last_modified": "2025-08-22T14:17:44.452050+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25h/struct_motif_counts.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T14:17:44.519702+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25h/struct_motif_densities_per100.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T14:17:44.521702+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25h/struct_motif_shares.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T14:17:44.520702+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25h/struct_score_components.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T14:17:44.525717+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25h/struct_similarity_matrix.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T14:17:44.535710+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25h/struct_system_scores.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T14:17:44.525717+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25h/struct_types_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 36,
+    "last_modified": "2025-08-22T14:17:44.451050+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25h/type_mapping_hits.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 1199,
+    "last_modified": "2025-08-22T14:17:44.458048+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25h/type_mapping_unknown.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 13909,
+    "last_modified": "2025-08-22T14:17:44.492066+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25h/weights_used.json",
+    "role": "structural_similarity",
+    "lang": "json",
+    "loc": 4,
+    "last_modified": "2025-08-22T14:17:44.536708+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25j/struct_types_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 14,
+    "last_modified": "2025-08-22T14:40:23.417672+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25k/motif_proxy_edges.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-08-22T14:45:24.778712+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25k/pairwise_structural_summary.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 11,
+    "last_modified": "2025-08-22T14:45:24.816310+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25k/struct_data_availability.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T14:45:24.770619+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25k/struct_functions_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-08-22T14:45:24.767622+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25k/struct_functions_shares_wide.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T14:45:24.769625+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25k/struct_motif_counts.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T14:45:24.772624+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25k/struct_motif_densities_per100.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T14:45:24.777780+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25k/struct_motif_shares.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T14:45:24.775797+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25k/struct_score_components.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T14:45:24.797797+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25k/struct_similarity_matrix.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T14:45:24.815295+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25k/struct_system_scores.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T14:45:24.796803+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25k/struct_types_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 14,
+    "last_modified": "2025-08-22T14:45:24.766625+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25k/weights_used.json",
+    "role": "structural_similarity",
+    "lang": "json",
+    "loc": 1,
+    "last_modified": "2025-08-22T14:45:24.818302+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25l/motif_proxy_edges.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-08-22T15:18:53.188825+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25l/pairwise_structural_summary.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 11,
+    "last_modified": "2025-08-22T15:28:48.009386+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25l/struct_data_availability.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T15:28:46.643902+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25l/struct_functions_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 26,
+    "last_modified": "2025-08-22T15:28:46.642904+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25l/struct_functions_shares_wide.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T15:28:46.643902+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25l/struct_motif_counts.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T15:28:47.993864+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25l/struct_motif_densities_per100.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T15:28:47.994864+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25l/struct_motif_shares.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T15:28:47.993864+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25l/struct_score_components.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T15:28:48.003386+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25l/struct_similarity_matrix.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T15:28:48.008392+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25l/struct_system_scores.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-22T15:28:48.002377+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25l/struct_types_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 41,
+    "last_modified": "2025-08-22T15:28:46.641889+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25l/type_mapping_hits.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 1781,
+    "last_modified": "2025-08-22T15:18:53.139930+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25l/type_mapping_unknown.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 13297,
+    "last_modified": "2025-08-22T15:18:53.178825+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25l/weights_used.json",
+    "role": "structural_similarity",
+    "lang": "json",
+    "loc": 6,
+    "last_modified": "2025-08-22T15:28:48.010383+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25m/motif_proxy_edges.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-03T10:29:59.860578+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25m/pairwise_structural_summary.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 11,
+    "last_modified": "2025-09-03T10:29:59.882622+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25m/struct_data_availability.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-03T10:29:59.841997+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25m/struct_functions_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 16,
+    "last_modified": "2025-09-03T10:29:59.840005+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25m/struct_functions_shares_wide.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-03T10:29:59.840999+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25m/struct_motif_counts.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 26,
+    "last_modified": "2025-09-03T10:29:59.861579+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25m/struct_motif_densities_per100.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 26,
+    "last_modified": "2025-09-03T10:29:59.863588+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25m/struct_motif_shares.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 26,
+    "last_modified": "2025-09-03T10:29:59.862579+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25m/struct_score_components.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-03T10:29:59.874088+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25m/struct_similarity_matrix.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-03T10:29:59.880000+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25m/struct_system_scores.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-03T10:29:59.873088+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25m/struct_types_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 36,
+    "last_modified": "2025-09-03T10:29:59.839005+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25m/type_mapping_hits.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 1169,
+    "last_modified": "2025-09-03T10:29:59.804949+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25m/type_mapping_unknown.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 13909,
+    "last_modified": "2025-09-03T10:29:59.837007+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25m/weights_used.json",
+    "role": "structural_similarity",
+    "lang": "json",
+    "loc": 16,
+    "last_modified": "2025-09-03T10:29:59.882622+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25n/motif_proxy_edges.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-09-03T12:09:02.505598+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25n/pairwise_structural_summary.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 11,
+    "last_modified": "2025-09-03T12:09:02.518957+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25n/struct_data_availability.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-03T12:09:02.449583+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25n/struct_functions_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 16,
+    "last_modified": "2025-09-03T12:09:02.447567+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25n/struct_functions_shares_wide.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-03T12:09:02.448571+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25n/struct_motif_counts.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-03T12:09:02.507596+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25n/struct_motif_densities_per100.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-03T12:09:02.508596+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25n/struct_motif_shares.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-03T12:09:02.508596+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25n/struct_score_components.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-03T12:09:02.513597+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25n/struct_similarity_matrix.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-03T12:09:02.517947+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25n/struct_system_scores.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-03T12:09:02.513597+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25n/struct_types_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 36,
+    "last_modified": "2025-09-03T12:09:02.447567+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25n/type_mapping_hits.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 477,
+    "last_modified": "2025-09-03T12:09:02.451571+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25n/type_mapping_unknown.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 14606,
+    "last_modified": "2025-09-03T12:09:02.485078+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25n/weights_used.json",
+    "role": "structural_similarity",
+    "lang": "json",
+    "loc": 9,
+    "last_modified": "2025-09-03T12:09:02.518957+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25o/motif_proxy_summary.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-03T14:22:11.843142+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25o/pairwise_structural_summary.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 11,
+    "last_modified": "2025-09-03T14:22:11.857585+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25o/struct_functions_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 11,
+    "last_modified": "2025-09-03T14:22:11.802314+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25o/struct_functions_shares_wide.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-03T14:22:11.813121+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25o/struct_motif_counts.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-03T14:22:11.840142+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25o/struct_motif_densities_per100.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-03T14:22:11.842143+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25o/struct_motif_shares.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-03T14:22:11.841141+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25o/struct_score_components.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-03T14:22:11.846156+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25o/struct_similarity_matrix.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-03T14:22:11.856729+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25o/struct_system_scores.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-03T14:22:11.844670+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25o/struct_types_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 31,
+    "last_modified": "2025-09-03T14:22:11.801314+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25o/weights_used.json",
+    "role": "structural_similarity",
+    "lang": "json",
+    "loc": 9,
+    "last_modified": "2025-09-03T14:22:11.857585+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p/motif_proxy_summary.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 36,
+    "last_modified": "2025-09-03T16:57:33.120560+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p/pairwise_structural_summary.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 11,
+    "last_modified": "2025-09-03T16:57:33.129072+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p/struct_data_availability.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-03T16:57:33.099054+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p/struct_functions_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-09-03T16:57:33.096987+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p/struct_functions_shares_wide.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-03T16:57:33.098054+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p/struct_motif_counts.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 36,
+    "last_modified": "2025-09-03T16:57:33.120560+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p/struct_motif_densities_per100.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-03T16:57:33.122560+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p/struct_motif_shares.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-03T16:57:33.121562+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p/struct_score_components.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-03T16:57:33.124561+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p/struct_similarity_matrix.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-03T16:57:33.128073+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p/struct_system_scores.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-03T16:57:33.125561+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p/struct_types_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-09-03T16:57:33.095991+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p/type_mapping_hits.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-09-03T16:57:33.093977+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p/type_mapping_unknown.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 1,
+    "last_modified": "2025-09-03T16:57:33.095991+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p/weights_used.json",
+    "role": "structural_similarity",
+    "lang": "json",
+    "loc": 18,
+    "last_modified": "2025-09-03T16:57:33.129072+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p1/motif_proxy_summary.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 21,
+    "last_modified": "2025-09-03T19:36:16.945816+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p1/pairwise_structural_summary.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 11,
+    "last_modified": "2025-09-03T19:36:16.951816+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p1/struct_data_availability.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-03T19:36:16.927385+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p1/struct_functions_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 4,
+    "last_modified": "2025-09-03T19:36:16.926379+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p1/struct_functions_shares_wide.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 4,
+    "last_modified": "2025-09-03T19:36:16.927385+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p1/struct_motif_counts.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 36,
+    "last_modified": "2025-09-03T19:36:16.944817+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p1/struct_motif_densities_per100.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-03T19:36:16.945816+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p1/struct_motif_shares.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-03T19:36:16.944817+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p1/struct_motif_shares_long.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 36,
+    "last_modified": "2025-09-03T18:56:19.039458+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p1/struct_score_components.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-03T19:36:16.947816+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p1/struct_similarity_matrix.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-03T19:36:16.950816+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p1/struct_system_scores.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-03T19:36:16.947816+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p1/struct_types_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 2,
+    "last_modified": "2025-09-03T19:36:16.925380+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p1/type_mapping_hits.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 2,
+    "last_modified": "2025-09-03T19:36:16.927385+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p1/type_mapping_unknown.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 184,
+    "last_modified": "2025-09-03T19:36:16.928896+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p1/weights_used.json",
+    "role": "structural_similarity",
+    "lang": "json",
+    "loc": 10,
+    "last_modified": "2025-09-03T19:36:16.951816+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p2/motif_proxy_summary.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-16T13:39:34.619541+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p2/pairwise_structural_summary.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 11,
+    "last_modified": "2025-09-16T13:39:34.626540+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p2/struct_data_availability.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-16T13:39:34.615540+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p2/struct_debug_bundle.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-16T13:39:34.628007+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p2/struct_functions_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 21,
+    "last_modified": "2025-09-16T13:39:34.614541+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p2/struct_functions_shares_wide.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-16T13:39:34.614541+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p2/struct_motif_counts.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-16T13:39:34.617541+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p2/struct_motif_densities_per100.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-16T13:39:34.618540+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p2/struct_motif_shares.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-16T13:39:34.622540+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p2/struct_motif_shares_long.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 41,
+    "last_modified": "2025-09-16T13:39:34.623539+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p2/struct_motif_shares_long_m5.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 41,
+    "last_modified": "2025-09-04T12:50:14.772581+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p2/struct_score_components.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-16T13:39:34.624541+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p2/struct_similarity_matrix.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-16T13:39:34.625540+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p2/struct_system_scores.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-16T13:39:34.623539+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p2/struct_types_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 36,
+    "last_modified": "2025-09-16T13:39:34.613541+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p2/type_mapping_hits.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 11,
+    "last_modified": "2025-09-16T13:39:34.616593+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p2/type_mapping_unknown.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 40,
+    "last_modified": "2025-09-16T13:39:34.617541+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25p2/weights_used.json",
+    "role": "structural_similarity",
+    "lang": "json",
+    "loc": 10,
+    "last_modified": "2025-09-16T13:39:34.627001+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25_allfunc/pairwise_structural_summary.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 11,
+    "last_modified": "2025-08-21T17:44:35.368528+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25_allfunc/struct_functions_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 9,
+    "last_modified": "2025-08-21T17:44:35.098220+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25_allfunc/struct_functions_shares_wide.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-21T17:44:35.113986+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25_allfunc/struct_motif_counts.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-21T17:44:35.270117+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25_allfunc/struct_motif_densities_per100.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-21T17:44:35.365013+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25_allfunc/struct_motif_shares.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-21T17:44:35.271219+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25_allfunc/struct_score_components.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-21T17:44:35.366516+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25_allfunc/struct_similarity_matrix.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-21T17:44:35.367520+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25_allfunc/struct_system_scores.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-08-21T17:44:35.364015+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07 - Structural_Extension_v25_allfunc/struct_types_histogram.csv",
+    "role": "structural_similarity",
+    "lang": "csv",
+    "loc": 3,
+    "last_modified": "2025-08-21T17:44:35.097218+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07c - Structural_Visuals/motif_shares_long_used.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 41,
+    "last_modified": "2025-09-04T19:14:20.267438+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07c - Structural_Visuals/radar_all_models.png",
+    "role": "misc",
+    "lang": "other",
+    "loc": 168133,
+    "last_modified": "2025-09-04T19:02:33.174272+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07c - Structural_Visuals/struct_dendrogram.png",
+    "role": "misc",
+    "lang": "other",
+    "loc": 45922,
+    "last_modified": "2025-09-04T19:14:20.726119+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07c - Structural_Visuals/struct_motif_heatmap.png",
+    "role": "misc",
+    "lang": "other",
+    "loc": 53833,
+    "last_modified": "2025-09-04T19:14:20.544524+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07c - Structural_Visuals/struct_similarity_matrix_used.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 12,
+    "last_modified": "2025-09-04T19:14:20.272566+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07c - Structural_Visuals/struct_system_scores_used.csv",
+    "role": "misc",
+    "lang": "csv",
+    "loc": 6,
+    "last_modified": "2025-09-04T19:02:31.601470+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07c - Structural_Visuals/visual_summary.json",
+    "role": "misc",
+    "lang": "json",
+    "loc": 15,
+    "last_modified": "2025-09-04T19:02:33.189486+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07c - Structural_Visuals/radars/radar_Building_05_DG.rdf.png",
+    "role": "misc",
+    "lang": "other",
+    "loc": 127411,
+    "last_modified": "2025-09-04T19:02:32.258697+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07c - Structural_Visuals/radars/radar_Building_06_DG.rdf.png",
+    "role": "misc",
+    "lang": "other",
+    "loc": 127758,
+    "last_modified": "2025-09-04T19:02:32.430944+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07c - Structural_Visuals/radars/radar_Freiform_Haus_DG.rdf.png",
+    "role": "misc",
+    "lang": "other",
+    "loc": 130592,
+    "last_modified": "2025-09-04T19:02:32.604838+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07c - Structural_Visuals/radars/radar_Option03_Revising_DG.rdf.png",
+    "role": "misc",
+    "lang": "other",
+    "loc": 125679,
+    "last_modified": "2025-09-04T19:02:32.829646+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07c - Structural_Visuals/radars/radar_Option04_Rev03_DG.rdf.png",
+    "role": "misc",
+    "lang": "other",
+    "loc": 126222,
+    "last_modified": "2025-09-04T19:02:33.006498+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07d - Structural_Visuals/radar_all_models.png",
+    "role": "misc",
+    "lang": "other",
+    "loc": 131573,
+    "last_modified": "2025-09-03T18:32:14.875898+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07d - Structural_Visuals/radar_Building_05_DG.rdf.png",
+    "role": "misc",
+    "lang": "other",
+    "loc": 135316,
+    "last_modified": "2025-09-03T18:32:15.048227+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07d - Structural_Visuals/radar_Building_06_DG.rdf.png",
+    "role": "misc",
+    "lang": "other",
+    "loc": 135537,
+    "last_modified": "2025-09-03T18:32:15.219591+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07d - Structural_Visuals/radar_Freiform_Haus_DG.rdf.png",
+    "role": "misc",
+    "lang": "other",
+    "loc": 135069,
+    "last_modified": "2025-09-03T18:32:15.380126+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07d - Structural_Visuals/radar_Option03_Revising_DG.rdf.png",
+    "role": "misc",
+    "lang": "other",
+    "loc": 137406,
+    "last_modified": "2025-09-03T18:32:15.543758+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07d - Structural_Visuals/radar_Option04_Rev03_DG.rdf.png",
+    "role": "misc",
+    "lang": "other",
+    "loc": 137078,
+    "last_modified": "2025-09-03T18:32:15.713917+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07d - Structural_Visuals/struct_dendrogram.png",
+    "role": "misc",
+    "lang": "other",
+    "loc": 56727,
+    "last_modified": "2025-09-03T18:32:14.693157+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "repro_pack/output/07d - Structural_Visuals/struct_motif_heatmap.png",
+    "role": "misc",
+    "lang": "other",
+    "loc": 102435,
+    "last_modified": "2025-09-03T18:32:14.511226+00:00",
+    "imports": [],
+    "deps": []
+  },
+  {
+    "path": "tools/gen_repo_map.py",
+    "role": "misc",
+    "lang": "python",
+    "loc": 127,
+    "last_modified": "2025-09-23T19:17:57.937738+00:00",
+    "imports": [
+      "import os",
+      "import sys",
+      "import json",
+      "import re",
+      "from datetime import datetime,"
+    ],
+    "deps": [
+      "datetime",
+      "json",
+      "os",
+      "re",
+      "sys"
+    ]
+  }
+]

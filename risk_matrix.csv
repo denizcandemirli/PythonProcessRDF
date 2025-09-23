@@ -1,0 +1,6 @@
+risk,probability,impact,mitigation
+Predicate canonization mismatch,Medium,High,Expand mapping & test with SPARQL prefix map
+Missing SHACL validation,High,Medium,Integrate pyshacl & CI job
+Weight mis-scaling,Medium,Medium,Normalize and include diagnostics in outputs
+Encoding issues on Windows,Medium,Low,Restrict logs to ASCII; set UTF-8 env
+
