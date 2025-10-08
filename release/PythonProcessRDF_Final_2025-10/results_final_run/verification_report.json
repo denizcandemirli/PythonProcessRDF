@@ -1,0 +1,290 @@
+{
+  "rdf_models": {
+    "Building_05_DG.rdf": {
+      "status": "OK",
+      "num_triples": 13160,
+      "num_subjects": 3024,
+      "num_objects": 2431,
+      "num_predicates": 99,
+      "type_distribution": {
+        "http://www.w3.org/2002/07/owl#Class": 1176,
+        "http://www.w3.org/2002/07/owl#Restriction": 386,
+        "http://www.w3.org/2002/07/owl#ObjectProperty": 328,
+        "http://www.w3.org/2002/07/owl#AnnotationProperty": 97,
+        "http://quantecton.com/kb/BuildingDesign#ExteriorWall": 72,
+        "http://www.w3.org/2002/07/owl#TransitiveProperty": 48,
+        "http://quantecton.com/kb/BuildingDesign#Reinforcement": 28,
+        "http://www.w3.org/2002/07/owl#Axiom": 27,
+        "http://quantecton.com/kb/BuildingDesign#LoadBearingFunction": 26,
+        "http://quantecton.com/kb/BuildingDesign#WallOpening": 25
+      },
+      "predicate_distribution": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": 2334,
+        "http://www.w3.org/2000/01/rdf-schema#label": 1460,
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": 974,
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": 773,
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": 773,
+        "http://quantecton.com/kb/BuildingDesign#AdjacentComponent": 648,
+        "http://www.w3.org/2000/01/rdf-schema#comment": 398,
+        "http://www.w3.org/2002/07/owl#onProperty": 386,
+        "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/naturalLanguageDefinition": 340,
+        "http://www.w3.org/2002/07/owl#someValuesFrom": 327
+      },
+      "found_predicates": {
+        "hasFunction": 30,
+        "hasQuality": 0,
+        "adjacentElement": 104,
+        "adjacentZone": 43,
+        "intersectingElement": 0,
+        "hasContinuantPart": 28
+      },
+      "parsing_errors": []
+    },
+    "Building_06_DG.rdf": {
+      "status": "OK",
+      "num_triples": 12696,
+      "num_subjects": 2974,
+      "num_objects": 2380,
+      "num_predicates": 102,
+      "type_distribution": {
+        "http://www.w3.org/2002/07/owl#Class": 1176,
+        "http://www.w3.org/2002/07/owl#Restriction": 386,
+        "http://www.w3.org/2002/07/owl#ObjectProperty": 328,
+        "http://www.w3.org/2002/07/owl#AnnotationProperty": 97,
+        "http://www.w3.org/2002/07/owl#TransitiveProperty": 48,
+        "http://quantecton.com/kb/BuildingDesign#ExteriorWall": 31,
+        "http://quantecton.com/kb/BuildingDesign#WallOpening": 30,
+        "http://www.w3.org/2002/07/owl#Axiom": 27,
+        "http://www.w3.org/2002/07/owl#FunctionalProperty": 24,
+        "http://quantecton.com/kb/BuildingDesign#Window": 18
+      },
+      "predicate_distribution": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": 2284,
+        "http://www.w3.org/2000/01/rdf-schema#label": 1460,
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": 974,
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": 773,
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": 773,
+        "http://www.w3.org/2000/01/rdf-schema#comment": 398,
+        "http://www.w3.org/2002/07/owl#onProperty": 386,
+        "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/naturalLanguageDefinition": 340,
+        "http://www.w3.org/2002/07/owl#someValuesFrom": 327,
+        "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": 319
+      },
+      "found_predicates": {
+        "hasFunction": 21,
+        "hasQuality": 0,
+        "adjacentElement": 82,
+        "adjacentZone": 65,
+        "intersectingElement": 0,
+        "hasContinuantPart": 18
+      },
+      "parsing_errors": []
+    },
+    "Freiform_Haus_DG.rdf": {
+      "status": "OK",
+      "num_triples": 12604,
+      "num_subjects": 3023,
+      "num_objects": 2427,
+      "num_predicates": 100,
+      "type_distribution": {
+        "http://www.w3.org/2002/07/owl#Class": 1176,
+        "http://www.w3.org/2002/07/owl#Restriction": 386,
+        "http://www.w3.org/2002/07/owl#ObjectProperty": 328,
+        "http://www.w3.org/2002/07/owl#AnnotationProperty": 97,
+        "http://www.w3.org/2002/07/owl#TransitiveProperty": 48,
+        "http://qudt.org/schema/qudt/QuantityValue": 44,
+        "http://quantecton.com/kb/BuildingDesign#WallOpening": 27,
+        "http://www.w3.org/2002/07/owl#Axiom": 27,
+        "http://www.w3.org/2002/07/owl#FunctionalProperty": 24,
+        "http://quantecton.com/kb/building_material_category#HeatTransferCoefficient": 22
+      },
+      "predicate_distribution": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": 2333,
+        "http://www.w3.org/2000/01/rdf-schema#label": 1460,
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": 974,
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": 773,
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": 773,
+        "http://www.w3.org/2000/01/rdf-schema#comment": 398,
+        "http://www.w3.org/2002/07/owl#onProperty": 386,
+        "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/naturalLanguageDefinition": 340,
+        "http://www.w3.org/2002/07/owl#someValuesFrom": 327,
+        "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": 319
+      },
+      "found_predicates": {
+        "hasFunction": 2,
+        "hasQuality": 0,
+        "adjacentElement": 4,
+        "adjacentZone": 6,
+        "intersectingElement": 0,
+        "hasContinuantPart": 1
+      },
+      "parsing_errors": []
+    },
+    "Option03_Revising_DG.rdf": {
+      "status": "OK",
+      "num_triples": 25055,
+      "num_subjects": 5141,
+      "num_objects": 4400,
+      "num_predicates": 103,
+      "type_distribution": {
+        "http://www.w3.org/2002/07/owl#Class": 1176,
+        "http://www.w3.org/2002/07/owl#Restriction": 386,
+        "http://quantecton.com/kb/BuildingDesign#Reinforcement": 350,
+        "http://www.w3.org/2002/07/owl#ObjectProperty": 328,
+        "http://quantecton.com/kb/BuildingDesign#InteriorWall": 217,
+        "http://quantecton.com/kb/BuildingDesign#WallOpening": 182,
+        "http://quantecton.com/kb/BuildingDesign#Wall": 181,
+        "http://qudt.org/schema/qudt/QuantityValue": 166,
+        "https://w3id.org/bot#Space": 157,
+        "https://spec.industrialontologies.org/ontology/core/Core/MeasuredValueExpression": 151
+      },
+      "predicate_distribution": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": 4451,
+        "http://quantecton.com/kb/BuildingDesign#AdjacentComponent": 3688,
+        "https://w3id.org/bot#adjacentZone": 2492,
+        "http://www.w3.org/2000/01/rdf-schema#label": 1460,
+        "https://w3id.org/bot#adjacentElement": 1321,
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": 974,
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": 773,
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": 773,
+        "https://w3id.org/bot#containsElement": 509,
+        "http://purl.obolibrary.org/obo/BFO_0000178": 433
+      },
+      "found_predicates": {
+        "hasFunction": 157,
+        "hasQuality": 0,
+        "adjacentElement": 1321,
+        "adjacentZone": 2492,
+        "intersectingElement": 0,
+        "hasContinuantPart": 433
+      },
+      "parsing_errors": []
+    },
+    "Option04_Rev03_DG.rdf": {
+      "status": "OK",
+      "num_triples": 22132,
+      "num_subjects": 4859,
+      "num_objects": 4157,
+      "num_predicates": 103,
+      "type_distribution": {
+        "http://www.w3.org/2002/07/owl#Class": 1176,
+        "http://www.w3.org/2002/07/owl#Restriction": 386,
+        "http://qudt.org/schema/qudt/QuantityValue": 350,
+        "http://www.w3.org/2002/07/owl#ObjectProperty": 328,
+        "http://quantecton.com/kb/BuildingDesign#ExteriorWall": 290,
+        "http://quantecton.com/kb/building_material_category#HeatTransferCoefficient": 175,
+        "http://quantecton.com/kb/concrete_composition_and_property#PortionOfHardenedConcrete": 175,
+        "http://quantecton.com/kb/building_material_category#ThermalMass": 175,
+        "http://quantecton.com/kb/building_material_category#ThermalResistance": 175,
+        "https://spec.industrialontologies.org/ontology/core/Core/MeasuredValueExpression": 175
+      },
+      "predicate_distribution": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": 4169,
+        "http://quantecton.com/kb/BuildingDesign#AdjacentComponent": 2172,
+        "https://w3id.org/bot#adjacentZone": 1876,
+        "http://www.w3.org/2000/01/rdf-schema#label": 1460,
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": 974,
+        "https://w3id.org/bot#adjacentElement": 914,
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": 773,
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": 773,
+        "https://spec.industrialontologies.org/ontology/core/Core/hasSimpleExpressionValue": 525,
+        "https://spec.industrialontologies.org/ontology/core/Core/hasCapability": 525
+      },
+      "found_predicates": {
+        "hasFunction": 7,
+        "hasQuality": 0,
+        "adjacentElement": 914,
+        "adjacentZone": 1876,
+        "intersectingElement": 0,
+        "hasContinuantPart": 181
+      },
+      "parsing_errors": []
+    }
+  },
+  "data_quality": {
+    "status": "WARNING",
+    "models": {
+      "Building_05_DG.rdf": {
+        "status": "OK",
+        "checks": [
+          "type_distribution: OK",
+          "function_histogram: OK",
+          "quality_histogram: MISSING",
+          "typed_edge_profile: OK"
+        ]
+      },
+      "Building_06_DG.rdf": {
+        "status": "OK",
+        "checks": [
+          "type_distribution: OK",
+          "function_histogram: OK",
+          "quality_histogram: MISSING",
+          "typed_edge_profile: OK"
+        ]
+      },
+      "Freiform_Haus_DG.rdf": {
+        "status": "OK",
+        "checks": [
+          "type_distribution: OK",
+          "function_histogram: OK",
+          "quality_histogram: MISSING",
+          "typed_edge_profile: OK"
+        ]
+      },
+      "Option03_Revising_DG.rdf": {
+        "status": "OK",
+        "checks": [
+          "type_distribution: OK",
+          "function_histogram: OK",
+          "quality_histogram: MISSING",
+          "typed_edge_profile: OK"
+        ]
+      },
+      "Option04_Rev03_DG.rdf": {
+        "status": "OK",
+        "checks": [
+          "type_distribution: OK",
+          "function_histogram: OK",
+          "quality_histogram: MISSING",
+          "typed_edge_profile: OK"
+        ]
+      }
+    },
+    "summary": {
+      "total_checks": 20,
+      "passed_checks": 15,
+      "pass_rate": 0.75
+    }
+  },
+  "similarity_matrices": {
+    "similarity_content_cosine.csv": {
+      "status": "ERROR",
+      "error": "operands could not be broadcast together with shapes (10,2) (2,10) "
+    },
+    "similarity_typed_edge_cosine.csv": {
+      "status": "ERROR",
+      "error": "operands could not be broadcast together with shapes (10,2) (2,10) "
+    },
+    "similarity_edge_sets_jaccard.csv": {
+      "status": "ERROR",
+      "error": "operands could not be broadcast together with shapes (10,6) (6,10) "
+    },
+    "struct_similarity_matrix.csv": {
+      "status": "ERROR",
+      "error": "File not found"
+    },
+    "total_similarity_matrix.csv": {
+      "status": "ERROR",
+      "error": "File not found"
+    }
+  },
+  "pipeline_consistency": {
+    "status": "WARNING",
+    "missing_files": [
+      "struct_similarity_matrix.csv",
+      "total_similarity_matrix.csv",
+      "pairwise_total_summary.csv"
+    ],
+    "inconsistent_models": []
+  }
+}

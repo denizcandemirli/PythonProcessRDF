@@ -1,0 +1,529 @@
+﻿On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   .gitattributes
+	new file:   .gitignore
+	new file:   0000_Merged.rdf
+	new file:   Building_05_DG.rdf
+	new file:   Building_06_DG.rdf
+	new file:   Freiform_Haus_DG.rdf
+	new file:   LICENSE
+	new file:   Option03_Revising_DG.rdf
+	new file:   Option04_Rev03_DG.rdf
+	new file:   README.md
+	new file:   REPORT.md
+	new file:   ablation_results.csv
+	new file:   architecture.md
+	new file:   combine_total_similarity.py
+	new file:   compute_similarity.py
+	new file:   compute_similarity_legacy.py
+	new file:   evaluation.md
+	new file:   export_m5_to_long.py
+	new file:   extract_features.py
+	new file:   issues.md
+	new file:   metrics.csv
+	new file:   missingness_sensitivity.csv
+	new file:   ontology_overview.md
+	new file:   pairwise_diffs_content.py
+	new file:   pairwise_diffs_edge_sets.py
+	new file:   pairwise_diffs_typed_edge.py
+	new file:   parameters.csv
+	new file:   rb_classes.csv
+	new file:   rb_properties.csv
+	new file:   repo_map.json
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Building_05_DG.rdf_adjacentElement_edges.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Building_05_DG.rdf_adjacentZone_edges.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Building_05_DG.rdf_function_type_histogram.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Building_05_DG.rdf_hasContinuantPart_edges.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Building_05_DG.rdf_intersectingElement_edges.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Building_05_DG.rdf_predicate_distribution.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Building_05_DG.rdf_quality_type_histogram.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Building_05_DG.rdf_type_distribution.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Building_05_DG.rdf_typed_edge_profile.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Building_06_DG.rdf_adjacentElement_edges.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Building_06_DG.rdf_adjacentZone_edges.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Building_06_DG.rdf_function_type_histogram.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Building_06_DG.rdf_hasContinuantPart_edges.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Building_06_DG.rdf_intersectingElement_edges.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Building_06_DG.rdf_predicate_distribution.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Building_06_DG.rdf_quality_type_histogram.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Building_06_DG.rdf_type_distribution.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Building_06_DG.rdf_typed_edge_profile.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Freiform_Haus_DG.rdf_adjacentElement_edges.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Freiform_Haus_DG.rdf_adjacentZone_edges.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Freiform_Haus_DG.rdf_function_type_histogram.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Freiform_Haus_DG.rdf_hasContinuantPart_edges.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Freiform_Haus_DG.rdf_intersectingElement_edges.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Freiform_Haus_DG.rdf_predicate_distribution.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Freiform_Haus_DG.rdf_quality_type_histogram.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Freiform_Haus_DG.rdf_type_distribution.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Freiform_Haus_DG.rdf_typed_edge_profile.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Option03_Revising_DG.rdf_adjacentElement_edges.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Option03_Revising_DG.rdf_adjacentZone_edges.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Option03_Revising_DG.rdf_function_type_histogram.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Option03_Revising_DG.rdf_hasContinuantPart_edges.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Option03_Revising_DG.rdf_intersectingElement_edges.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Option03_Revising_DG.rdf_predicate_distribution.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Option03_Revising_DG.rdf_quality_type_histogram.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Option03_Revising_DG.rdf_type_distribution.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Option03_Revising_DG.rdf_typed_edge_profile.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Option04_Rev03_DG.rdf_adjacentElement_edges.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Option04_Rev03_DG.rdf_adjacentZone_edges.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Option04_Rev03_DG.rdf_function_type_histogram.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Option04_Rev03_DG.rdf_hasContinuantPart_edges.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Option04_Rev03_DG.rdf_intersectingElement_edges.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Option04_Rev03_DG.rdf_predicate_distribution.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Option04_Rev03_DG.rdf_quality_type_histogram.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Option04_Rev03_DG.rdf_type_distribution.csv
+	new file:   repro_pack/output/01 - Building_Information - Feature Extraction/Option04_Rev03_DG.rdf_typed_edge_profile.csv
+	new file:   repro_pack/output/02 - Similarity/dendrogram_final_similarity.png
+	new file:   repro_pack/output/02 - Similarity/heatmap_final_similarity.png
+	new file:   repro_pack/output/02 - Similarity/matrix_final_similarity.csv
+	new file:   repro_pack/output/02 - Similarity/similarity_combined_weighted.csv
+	new file:   repro_pack/output/02 - Similarity/similarity_content_cosine.csv
+	new file:   repro_pack/output/02 - Similarity/similarity_edge_sets_jaccard.csv
+	new file:   repro_pack/output/02 - Similarity/similarity_typed_edge_cosine.csv
+	new file:   repro_pack/output/02 - Similarity/similarity_typed_edge_jaccard.csv
+	new file:   repro_pack/output/03 - Verification/verification_report.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_pair_manifest.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_summary_Building_05_DG.rdf__Building_06_DG.rdf_adjacentElement.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_summary_Building_05_DG.rdf__Building_06_DG.rdf_adjacentZone.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_summary_Building_05_DG.rdf__Building_06_DG.rdf_hasContinuantPart.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_summary_Building_05_DG.rdf__Building_06_DG.rdf_intersectingElement.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_summary_Building_05_DG.rdf__Option04_Rev03_DG.rdf_adjacentElement.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_summary_Building_05_DG.rdf__Option04_Rev03_DG.rdf_adjacentZone.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_summary_Building_05_DG.rdf__Option04_Rev03_DG.rdf_hasContinuantPart.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_summary_Building_05_DG.rdf__Option04_Rev03_DG.rdf_intersectingElement.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_summary_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf_adjacentElement.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_summary_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf_adjacentZone.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_summary_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf_hasContinuantPart.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_summary_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf_intersectingElement.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_shared_Building_05_DG.rdf__Building_06_DG.rdf_adjacentElement.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_shared_Building_05_DG.rdf__Building_06_DG.rdf_adjacentZone.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_shared_Building_05_DG.rdf__Building_06_DG.rdf_hasContinuantPart.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_shared_Building_05_DG.rdf__Building_06_DG.rdf_intersectingElement.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_shared_Building_05_DG.rdf__Option04_Rev03_DG.rdf_adjacentElement.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_shared_Building_05_DG.rdf__Option04_Rev03_DG.rdf_adjacentZone.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_shared_Building_05_DG.rdf__Option04_Rev03_DG.rdf_hasContinuantPart.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_shared_Building_05_DG.rdf__Option04_Rev03_DG.rdf_intersectingElement.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_shared_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf_adjacentElement.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_shared_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf_adjacentZone.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_shared_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf_hasContinuantPart.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_shared_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf_intersectingElement.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueA_Building_05_DG.rdf__Building_06_DG.rdf_adjacentElement.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueA_Building_05_DG.rdf__Building_06_DG.rdf_adjacentZone.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueA_Building_05_DG.rdf__Building_06_DG.rdf_hasContinuantPart.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueA_Building_05_DG.rdf__Building_06_DG.rdf_intersectingElement.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueA_Building_05_DG.rdf__Option04_Rev03_DG.rdf_adjacentElement.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueA_Building_05_DG.rdf__Option04_Rev03_DG.rdf_adjacentZone.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueA_Building_05_DG.rdf__Option04_Rev03_DG.rdf_hasContinuantPart.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueA_Building_05_DG.rdf__Option04_Rev03_DG.rdf_intersectingElement.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueA_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf_adjacentElement.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueA_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf_adjacentZone.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueA_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf_hasContinuantPart.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueA_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf_intersectingElement.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueB_Building_05_DG.rdf__Building_06_DG.rdf_adjacentElement.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueB_Building_05_DG.rdf__Building_06_DG.rdf_adjacentZone.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueB_Building_05_DG.rdf__Building_06_DG.rdf_hasContinuantPart.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueB_Building_05_DG.rdf__Building_06_DG.rdf_intersectingElement.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueB_Building_05_DG.rdf__Option04_Rev03_DG.rdf_adjacentElement.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueB_Building_05_DG.rdf__Option04_Rev03_DG.rdf_adjacentZone.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueB_Building_05_DG.rdf__Option04_Rev03_DG.rdf_hasContinuantPart.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueB_Building_05_DG.rdf__Option04_Rev03_DG.rdf_intersectingElement.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueB_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf_adjacentElement.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueB_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf_adjacentZone.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueB_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf_hasContinuantPart.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Edge_Sets/edge_top_uniqueB_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf_intersectingElement.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Typed_Edge/predicate_diffsum_03-04.png
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Typed_Edge/predicate_diffsum_05-04.png
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Typed_Edge/predicate_diffsum_05-06.png
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Typed_Edge/predicate_share_03-04.png
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Typed_Edge/predicate_share_05-04.png
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Typed_Edge/predicate_share_05-06.png
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Typed_Edge/typededge_pairwise_manifest.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Typed_Edge/typededge_predicate_contrib_Building_05_DG.rdf__Building_06_DG.rdf.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Typed_Edge/typededge_predicate_contrib_Building_05_DG.rdf__Option04_Rev03_DG.rdf.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Typed_Edge/typededge_predicate_contrib_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Typed_Edge/typededge_summary_Building_05_DG.rdf__Building_06_DG.rdf.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Typed_Edge/typededge_summary_Building_05_DG.rdf__Option04_Rev03_DG.rdf.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Typed_Edge/typededge_summary_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Typed_Edge/typededge_top_contributors_Building_05_DG.rdf__Building_06_DG.rdf.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Typed_Edge/typededge_top_contributors_Building_05_DG.rdf__Option04_Rev03_DG.rdf.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Typed_Edge/typededge_top_contributors_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Typed_Edge/typededge_top_differences_Building_05_DG.rdf__Building_06_DG.rdf.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Typed_Edge/typededge_top_differences_Building_05_DG.rdf__Option04_Rev03_DG.rdf.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/Typed_Edge/typededge_top_differences_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/content_pairwise_manifest.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/content_summary_Building_05_DG.rdf__Building_06_DG.rdf.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/content_summary_Building_05_DG.rdf__Option04_Rev03_DG.rdf.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/content_summary_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/content_top_contributors_Building_05_DG.rdf__Building_06_DG.rdf.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/content_top_contributors_Building_05_DG.rdf__Option04_Rev03_DG.rdf.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/content_top_contributors_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/content_top_differences_Building_05_DG.rdf__Building_06_DG.rdf.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/content_top_differences_Building_05_DG.rdf__Option04_Rev03_DG.rdf.csv
+	new file:   repro_pack/output/04 - Pairwise_Diffs/content_top_differences_Option03_Revising_DG.rdf__Option04_Rev03_DG.rdf.csv
+	new file:   repro_pack/output/05 - Subgraph_Similarity/motif_counts_all.csv
+	new file:   repro_pack/output/05 - Subgraph_Similarity/motif_library.csv
+	new file:   repro_pack/output/05 - Subgraph_Similarity/motif_match_samples.csv
+	new file:   repro_pack/output/05 - Subgraph_Similarity/pairwise_structural_summary.csv
+	new file:   repro_pack/output/05 - Subgraph_Similarity/similarity_motif_cosine.csv
+	new file:   repro_pack/output/05 - Subgraph_Similarity/similarity_motif_overlap_weighted.csv
+	new file:   repro_pack/output/05 - Subgraph_Similarity/similarity_structural_final.csv
+	new file:   repro_pack/output/05b - Subgraph_Similarity_Canon/debug_category_mix.csv
+	new file:   repro_pack/output/05b - Subgraph_Similarity_Canon/debug_motif_graph_pred_counts.csv
+	new file:   repro_pack/output/05b - Subgraph_Similarity_Canon/debug_predicate_map.csv
+	new file:   repro_pack/output/05b - Subgraph_Similarity_Canon/motif_counts_all.csv
+	new file:   repro_pack/output/05b - Subgraph_Similarity_Canon/motif_library.csv
+	new file:   repro_pack/output/05b - Subgraph_Similarity_Canon/motif_match_samples.csv
+	new file:   repro_pack/output/05b - Subgraph_Similarity_Canon/pairwise_structural_summary.csv
+	new file:   repro_pack/output/05b - Subgraph_Similarity_Canon/similarity_motif_cosine.csv
+	new file:   repro_pack/output/05b - Subgraph_Similarity_Canon/similarity_motif_overlap_weighted.csv
+	new file:   repro_pack/output/05b - Subgraph_Similarity_Canon/similarity_structural_final.csv
+	new file:   repro_pack/output/05c - Subgraph_Similarity_Visuals/dendrogram_motif_final.png
+	new file:   repro_pack/output/05c - Subgraph_Similarity_Visuals/motif_contrib_Building_05_DG__Building_06_DG.csv
+	new file:   repro_pack/output/05c - Subgraph_Similarity_Visuals/motif_contrib_Building_05_DG__Building_06_DG.png
+	new file:   repro_pack/output/05c - Subgraph_Similarity_Visuals/motif_contrib_Building_05_DG__Option04_Rev03_DG.csv
+	new file:   repro_pack/output/05c - Subgraph_Similarity_Visuals/motif_contrib_Building_05_DG__Option04_Rev03_DG.png
+	new file:   repro_pack/output/05c - Subgraph_Similarity_Visuals/motif_contrib_Option03_Revising_DG__Option04_Rev03_DG.csv
+	new file:   repro_pack/output/05c - Subgraph_Similarity_Visuals/motif_contrib_Option03_Revising_DG__Option04_Rev03_DG.png
+	new file:   repro_pack/output/05c - Subgraph_Similarity_Visuals/motif_heatmap_shares.png
+	new file:   repro_pack/output/05c - Subgraph_Similarity_Visuals/motif_shares_row_normalized.csv
+	new file:   repro_pack/output/06 - Total_Similarity/pairwise_total_summary.csv
+	new file:   repro_pack/output/06 - Total_Similarity/total_similarity_matrix.csv
+	new file:   repro_pack/output/06 - Total_Similarity/weights_used.json
+	new file:   repro_pack/output/06b - Total_Similarity_Visuals/refresh_2025-09-16/total_contrib_Building_05_DG__Building_06_DG.csv
+	new file:   repro_pack/output/06b - Total_Similarity_Visuals/refresh_2025-09-16/total_contrib_Building_05_DG__Building_06_DG.png
+	new file:   repro_pack/output/06b - Total_Similarity_Visuals/refresh_2025-09-16/total_contrib_Building_05_DG__Option04_Rev03_DG.csv
+	new file:   repro_pack/output/06b - Total_Similarity_Visuals/refresh_2025-09-16/total_contrib_Building_05_DG__Option04_Rev03_DG.png
+	new file:   repro_pack/output/06b - Total_Similarity_Visuals/refresh_2025-09-16/total_contrib_Option03_Revising_DG__Option04_Rev03_DG.csv
+	new file:   repro_pack/output/06b - Total_Similarity_Visuals/refresh_2025-09-16/total_contrib_Option03_Revising_DG__Option04_Rev03_DG.png
+	new file:   repro_pack/output/06b - Total_Similarity_Visuals/refresh_2025-09-16/total_dendrogram.png
+	new file:   repro_pack/output/06b - Total_Similarity_Visuals/refresh_2025-09-16/total_heatmap.png
+	new file:   repro_pack/output/06b - Total_Similarity_Visuals/total_contrib_Building_05_DG__Building_06_DG.csv
+	new file:   repro_pack/output/06b - Total_Similarity_Visuals/total_contrib_Building_05_DG__Building_06_DG.png
+	new file:   repro_pack/output/06b - Total_Similarity_Visuals/total_contrib_Building_05_DG__Option03_Revising_DG.csv
+	new file:   repro_pack/output/06b - Total_Similarity_Visuals/total_contrib_Building_05_DG__Option03_Revising_DG.png
+	new file:   repro_pack/output/06b - Total_Similarity_Visuals/total_contrib_Building_05_DG__Option04_Rev03_DG.csv
+	new file:   repro_pack/output/06b - Total_Similarity_Visuals/total_contrib_Building_05_DG__Option04_Rev03_DG.png
+	new file:   repro_pack/output/06b - Total_Similarity_Visuals/total_contrib_Building_06_DG__Option04_Rev03_DG.csv
+	new file:   repro_pack/output/06b - Total_Similarity_Visuals/total_contrib_Building_06_DG__Option04_Rev03_DG.png
+	new file:   repro_pack/output/06b - Total_Similarity_Visuals/total_contrib_Freiform_Haus_DG__Option03_Revising_DG.csv
+	new file:   repro_pack/output/06b - Total_Similarity_Visuals/total_contrib_Freiform_Haus_DG__Option03_Revising_DG.png
+	new file:   repro_pack/output/06b - Total_Similarity_Visuals/total_contrib_Option03_Revising_DG__Option04_Rev03_DG.csv
+	new file:   repro_pack/output/06b - Total_Similarity_Visuals/total_contrib_Option03_Revising_DG__Option04_Rev03_DG.png
+	new file:   repro_pack/output/06b - Total_Similarity_Visuals/total_dendrogram.png
+	new file:   repro_pack/output/06b - Total_Similarity_Visuals/total_heatmap.png
+	new file:   repro_pack/output/07 - Structural_Extension/pairwise_structural_summary.csv
+	new file:   repro_pack/output/07 - Structural_Extension/struct_functions_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension/struct_motif_counts.csv
+	new file:   repro_pack/output/07 - Structural_Extension/struct_motif_shares.csv
+	new file:   repro_pack/output/07 - Structural_Extension/struct_similarity_matrix.csv
+	new file:   repro_pack/output/07 - Structural_Extension/struct_system_scores.csv
+	new file:   repro_pack/output/07 - Structural_Extension/struct_types_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v24/pairwise_structural_summary.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v24/struct_functions_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v24/struct_motif_counts.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v24/struct_motif_shares.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v24/struct_similarity_matrix.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v24/struct_system_scores.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v24/struct_types_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25/pairwise_structural_summary.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25/struct_functions_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25/struct_motif_counts.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25/struct_motif_shares.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25/struct_similarity_matrix.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25/struct_system_scores.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25/struct_types_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25_allfunc/pairwise_structural_summary.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25_allfunc/struct_functions_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25_allfunc/struct_functions_shares_wide.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25_allfunc/struct_motif_counts.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25_allfunc/struct_motif_densities_per100.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25_allfunc/struct_motif_shares.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25_allfunc/struct_score_components.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25_allfunc/struct_similarity_matrix.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25_allfunc/struct_system_scores.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25_allfunc/struct_types_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25b/pairwise_structural_summary.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25b/struct_functions_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25b/struct_motif_counts.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25b/struct_motif_shares.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25b/struct_similarity_matrix.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25b/struct_system_scores.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25b/struct_types_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25d/pairwise_structural_summary.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25d/struct_data_availability.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25d/struct_functions_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25d/struct_functions_shares_wide.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25d/struct_motif_counts.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25d/struct_motif_densities_per100.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25d/struct_motif_shares.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25d/struct_score_components.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25d/struct_similarity_matrix.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25d/struct_system_scores.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25d/struct_types_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25d_allfunc/pairwise_structural_summary.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25d_allfunc/struct_data_availability.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25d_allfunc/struct_functions_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25d_allfunc/struct_functions_shares_wide.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25d_allfunc/struct_motif_counts.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25d_allfunc/struct_motif_densities_per100.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25d_allfunc/struct_motif_shares.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25d_allfunc/struct_score_components.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25d_allfunc/struct_similarity_matrix.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25d_allfunc/struct_system_scores.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25d_allfunc/struct_types_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25e/pairwise_structural_summary.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25e/struct_data_availability.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25e/struct_functions_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25e/struct_functions_shares_wide.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25e/struct_motif_counts.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25e/struct_motif_densities_per100.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25e/struct_motif_shares.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25e/struct_score_components.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25e/struct_similarity_matrix.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25e/struct_system_scores.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25e/struct_types_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25f/pairwise_structural_summary.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25f/struct_data_availability.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25f/struct_functions_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25f/struct_functions_shares_wide.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25f/struct_motif_counts.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25f/struct_motif_densities_per100.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25f/struct_motif_shares.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25f/struct_score_components.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25f/struct_similarity_matrix.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25f/struct_system_scores.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25f/struct_types_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25f/type_mapping_hits.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25f/type_mapping_unknown.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25g/pairwise_structural_summary.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25g/struct_data_availability.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25g/struct_functions_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25g/struct_functions_shares_wide.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25g/struct_motif_counts.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25g/struct_motif_densities_per100.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25g/struct_motif_shares.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25g/struct_score_components.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25g/struct_similarity_matrix.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25g/struct_system_scores.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25g/struct_types_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25g/type_mapping_hits.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25g/type_mapping_unknown.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25h/motif_proxy_edges.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25h/pairwise_structural_summary.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25h/struct_data_availability.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25h/struct_functions_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25h/struct_functions_shares_wide.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25h/struct_motif_counts.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25h/struct_motif_densities_per100.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25h/struct_motif_shares.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25h/struct_score_components.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25h/struct_similarity_matrix.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25h/struct_system_scores.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25h/struct_types_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25h/type_mapping_hits.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25h/type_mapping_unknown.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25h/weights_used.json
+	new file:   repro_pack/output/07 - Structural_Extension_v25j/struct_types_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25k/motif_proxy_edges.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25k/pairwise_structural_summary.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25k/struct_data_availability.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25k/struct_functions_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25k/struct_functions_shares_wide.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25k/struct_motif_counts.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25k/struct_motif_densities_per100.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25k/struct_motif_shares.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25k/struct_score_components.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25k/struct_similarity_matrix.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25k/struct_system_scores.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25k/struct_types_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25k/weights_used.json
+	new file:   repro_pack/output/07 - Structural_Extension_v25l/motif_proxy_edges.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25l/pairwise_structural_summary.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25l/struct_data_availability.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25l/struct_functions_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25l/struct_functions_shares_wide.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25l/struct_motif_counts.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25l/struct_motif_densities_per100.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25l/struct_motif_shares.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25l/struct_score_components.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25l/struct_similarity_matrix.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25l/struct_system_scores.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25l/struct_types_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25l/type_mapping_hits.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25l/type_mapping_unknown.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25l/weights_used.json
+	new file:   repro_pack/output/07 - Structural_Extension_v25m/motif_proxy_edges.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25m/pairwise_structural_summary.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25m/struct_data_availability.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25m/struct_functions_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25m/struct_functions_shares_wide.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25m/struct_motif_counts.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25m/struct_motif_densities_per100.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25m/struct_motif_shares.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25m/struct_score_components.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25m/struct_similarity_matrix.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25m/struct_system_scores.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25m/struct_types_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25m/type_mapping_hits.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25m/type_mapping_unknown.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25m/weights_used.json
+	new file:   repro_pack/output/07 - Structural_Extension_v25n/motif_proxy_edges.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25n/pairwise_structural_summary.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25n/struct_data_availability.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25n/struct_functions_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25n/struct_functions_shares_wide.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25n/struct_motif_counts.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25n/struct_motif_densities_per100.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25n/struct_motif_shares.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25n/struct_score_components.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25n/struct_similarity_matrix.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25n/struct_system_scores.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25n/struct_types_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25n/type_mapping_hits.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25n/type_mapping_unknown.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25n/weights_used.json
+	new file:   repro_pack/output/07 - Structural_Extension_v25o/motif_proxy_summary.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25o/pairwise_structural_summary.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25o/struct_functions_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25o/struct_functions_shares_wide.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25o/struct_motif_counts.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25o/struct_motif_densities_per100.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25o/struct_motif_shares.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25o/struct_score_components.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25o/struct_similarity_matrix.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25o/struct_system_scores.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25o/struct_types_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25o/weights_used.json
+	new file:   repro_pack/output/07 - Structural_Extension_v25p/motif_proxy_summary.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p/pairwise_structural_summary.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p/struct_data_availability.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p/struct_functions_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p/struct_functions_shares_wide.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p/struct_motif_counts.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p/struct_motif_densities_per100.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p/struct_motif_shares.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p/struct_score_components.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p/struct_similarity_matrix.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p/struct_system_scores.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p/struct_types_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p/type_mapping_hits.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p/type_mapping_unknown.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p/weights_used.json
+	new file:   repro_pack/output/07 - Structural_Extension_v25p1/motif_proxy_summary.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p1/pairwise_structural_summary.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p1/struct_data_availability.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p1/struct_functions_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p1/struct_functions_shares_wide.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p1/struct_motif_counts.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p1/struct_motif_densities_per100.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p1/struct_motif_shares.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p1/struct_motif_shares_long.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p1/struct_score_components.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p1/struct_similarity_matrix.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p1/struct_system_scores.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p1/struct_types_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p1/type_mapping_hits.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p1/type_mapping_unknown.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p1/weights_used.json
+	new file:   repro_pack/output/07 - Structural_Extension_v25p2/motif_proxy_summary.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p2/pairwise_structural_summary.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p2/struct_data_availability.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p2/struct_debug_bundle.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p2/struct_functions_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p2/struct_functions_shares_wide.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p2/struct_motif_counts.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p2/struct_motif_densities_per100.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p2/struct_motif_shares.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p2/struct_motif_shares_long.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p2/struct_motif_shares_long_m5.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p2/struct_score_components.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p2/struct_similarity_matrix.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p2/struct_system_scores.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p2/struct_types_histogram.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p2/type_mapping_hits.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p2/type_mapping_unknown.csv
+	new file:   repro_pack/output/07 - Structural_Extension_v25p2/weights_used.json
+	new file:   repro_pack/output/07c - Structural_Visuals/motif_shares_long_used.csv
+	new file:   repro_pack/output/07c - Structural_Visuals/radar_all_models.png
+	new file:   repro_pack/output/07c - Structural_Visuals/radars/radar_Building_05_DG.rdf.png
+	new file:   repro_pack/output/07c - Structural_Visuals/radars/radar_Building_06_DG.rdf.png
+	new file:   repro_pack/output/07c - Structural_Visuals/radars/radar_Freiform_Haus_DG.rdf.png
+	new file:   repro_pack/output/07c - Structural_Visuals/radars/radar_Option03_Revising_DG.rdf.png
+	new file:   repro_pack/output/07c - Structural_Visuals/radars/radar_Option04_Rev03_DG.rdf.png
+	new file:   repro_pack/output/07c - Structural_Visuals/struct_dendrogram.png
+	new file:   repro_pack/output/07c - Structural_Visuals/struct_motif_heatmap.png
+	new file:   repro_pack/output/07c - Structural_Visuals/struct_similarity_matrix_used.csv
+	new file:   repro_pack/output/07c - Structural_Visuals/struct_system_scores_used.csv
+	new file:   repro_pack/output/07c - Structural_Visuals/visual_summary.json
+	new file:   repro_pack/output/07d - Structural_Visuals/radar_Building_05_DG.rdf.png
+	new file:   repro_pack/output/07d - Structural_Visuals/radar_Building_06_DG.rdf.png
+	new file:   repro_pack/output/07d - Structural_Visuals/radar_Freiform_Haus_DG.rdf.png
+	new file:   repro_pack/output/07d - Structural_Visuals/radar_Option03_Revising_DG.rdf.png
+	new file:   repro_pack/output/07d - Structural_Visuals/radar_Option04_Rev03_DG.rdf.png
+	new file:   repro_pack/output/07d - Structural_Visuals/radar_all_models.png
+	new file:   repro_pack/output/07d - Structural_Visuals/struct_dendrogram.png
+	new file:   repro_pack/output/07d - Structural_Visuals/struct_motif_heatmap.png
+	new file:   repro_pack/output/similarity_content_cosine.csv
+	new file:   repro_pack/output/similarity_edge_sets_jaccard.csv
+	new file:   repro_pack/output/similarity_typed_edge_cosine.csv
+	new file:   repro_pack/output/similarity_typed_edge_jaccard.csv
+	new file:   risk_matrix.csv
+	new file:   run_log.txt
+	new file:   shacl_report.md
+	new file:   shapes_min.ttl
+	new file:   static_analysis.md
+	new file:   structural_extension.py
+	new file:   structural_extension_v24.py
+	new file:   structural_extension_v25.py
+	new file:   structural_extension_v25b.py
+	new file:   structural_extension_v25c.py
+	new file:   structural_extension_v25d.py
+	new file:   structural_extension_v25e.py
+	new file:   structural_extension_v25f.py
+	new file:   structural_extension_v25g.py
+	new file:   structural_extension_v25h.py
+	new file:   structural_extension_v25j.py
+	new file:   structural_extension_v25k.py
+	new file:   structural_extension_v25l.py
+	new file:   structural_extension_v25m.py
+	new file:   structural_extension_v25n.py
+	new file:   structural_extension_v25o.py
+	new file:   structural_extension_v25p.py
+	new file:   structural_extension_v25p1.py
+	new file:   structural_extension_v25p2.py
+	new file:   subgraph_similarity.py
+	new file:   subgraph_similarity_v2.py
+	new file:   tools/gen_architecture.py
+	new file:   tools/gen_parameters.py
+	new file:   tools/gen_repo_map.py
+	new file:   tools/gen_trace.py
+	new file:   tools/missingness_sensitivity.py
+	new file:   tools/rdf_profile.py
+	new file:   tools/run_ablation.py
+	new file:   tools/run_shacl.py
+	new file:   tools/static_analysis.py
+	new file:   trace_matrix.csv
+	new file:   verify_outputs.py
+	new file:   verify_repro_pass.py
+	new file:   visualize_motif_similarity.py
+	new file:   visualize_predicate_bars.py
+	new file:   visualize_similarity.py
+	new file:   visualize_struct_matrix_heatmap.py
+	new file:   visualize_structural_bundle.py
+	new file:   visualize_structural_extension.py
+	new file:   visualize_structural_radar.py
+	new file:   visualize_structural_report.py
+	new file:   visualize_total_similarity.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	--root
+	publish_log.txt
+	requirements.txt
+

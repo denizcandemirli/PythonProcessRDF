@@ -1,0 +1,11 @@
+model_a,model_b,typed_edge_cosine
+Building_05_DG.rdf,Building_06_DG.rdf,0.8380323262147589
+Building_05_DG.rdf,Freiform_Haus_DG.rdf,0.07399877146615007
+Building_05_DG.rdf,Option03_Revising_DG.rdf,0.32067368566356624
+Building_05_DG.rdf,Option04_Rev03_DG.rdf,0.46555200779181916
+Building_06_DG.rdf,Freiform_Haus_DG.rdf,0.08566361217411077
+Building_06_DG.rdf,Option03_Revising_DG.rdf,0.16999255837782648
+Building_06_DG.rdf,Option04_Rev03_DG.rdf,0.3584272973592597
+Freiform_Haus_DG.rdf,Option03_Revising_DG.rdf,0.004471008478224682
+Freiform_Haus_DG.rdf,Option04_Rev03_DG.rdf,0.007376005429492479
+Option03_Revising_DG.rdf,Option04_Rev03_DG.rdf,0.5800988027736782

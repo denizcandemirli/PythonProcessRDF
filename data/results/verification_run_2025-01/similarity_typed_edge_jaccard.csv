@@ -1,0 +1,11 @@
+model_a,model_b,typed_edge_jaccard
+Building_05_DG.rdf,Building_06_DG.rdf,0.6666666666666666
+Building_05_DG.rdf,Freiform_Haus_DG.rdf,0.07692307692307693
+Building_05_DG.rdf,Option03_Revising_DG.rdf,0.25
+Building_05_DG.rdf,Option04_Rev03_DG.rdf,0.2857142857142857
+Building_06_DG.rdf,Freiform_Haus_DG.rdf,0.07142857142857142
+Building_06_DG.rdf,Option03_Revising_DG.rdf,0.24299065420560748
+Building_06_DG.rdf,Option04_Rev03_DG.rdf,0.19047619047619047
+Freiform_Haus_DG.rdf,Option03_Revising_DG.rdf,0.06382978723404255
+Freiform_Haus_DG.rdf,Option04_Rev03_DG.rdf,0.16666666666666666
+Option03_Revising_DG.rdf,Option04_Rev03_DG.rdf,0.27450980392156865
