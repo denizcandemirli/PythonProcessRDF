@@ -1,0 +1,6 @@
+model,M1_isolated,M2_frameNode,M3_wallSlab,M4_core,M5_beamColumn,M6_connection,M7_junction,M8_complex
+Building_05_DG.rdf,M1_isolated,M2_frameNode,M3_wallSlab,M4_core,M5_beamColumn,M6_connection,M7_junction,M8_complex
+Building_06_DG.rdf,M1_isolated,M2_frameNode,M3_wallSlab,M4_core,M5_beamColumn,M6_connection,M7_junction,M8_complex
+Freiform_Haus_DG.rdf,M1_isolated,M2_frameNode,M3_wallSlab,M4_core,M5_beamColumn,M6_connection,M7_junction,M8_complex
+Option03_Revising_DG.rdf,M1_isolated,M2_frameNode,M3_wallSlab,M4_core,M5_beamColumn,M6_connection,M7_junction,M8_complex
+Option04_Rev03_DG.rdf,M1_isolated,M2_frameNode,M3_wallSlab,M4_core,M5_beamColumn,M6_connection,M7_junction,M8_complex

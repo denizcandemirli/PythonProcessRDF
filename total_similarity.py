@@ -14,14 +14,14 @@ This script combines similarity matrices from:
 
 Uses validated weight combination: {0.30, 0.20, 0.10, 0.40}
 
-Author: Deniz [Your Surname]
+Author: Deniz Demirli
 Supervisor: Dr. Chao Li (TUM)
 Version: 2025.10
 License: SPDX-License-Identifier: CC-BY-4.0
 """
 
 __version__ = "2025.10"
-__author__ = "Deniz [Your Surname]"
+__author__ = "Deniz Demirli"
 __supervisor__ = "Dr. Chao Li (TUM)"
 
 import os
@@ -229,6 +229,12 @@ def main():
                    help="Path to edge-set Jaccard similarity CSV")
     ap.add_argument("--struct-sim", required=True,
                    help="Path to structural similarity CSV")
+    ap.add_argument("--struct-source", choices=["counts", "sp", "hybrid", "netlsd", "s1s4"], default="counts",
+                   help="Structural similarity source: counts (motif counts), sp (significance profiles), hybrid (blend), netlsd (NetLSD heat-trace), s1s4 (S1→S4 structural channel)")
+    ap.add_argument("--struct-sp", 
+                   help="Path to SP-based structural similarity CSV (required if struct-source is 'sp' or 'hybrid')")
+    ap.add_argument("--hybrid-alpha", type=float, default=0.5,
+                   help="Blending weight for hybrid mode: alpha*SP + (1-alpha)*counts (default: 0.5)")
     ap.add_argument("--w-content", type=float, default=FUSION_WEIGHTS["content"],
                    help=f"Weight for content similarity (default: {FUSION_WEIGHTS['content']})")
     ap.add_argument("--w-typed", type=float, default=FUSION_WEIGHTS["typed"],
@@ -251,6 +257,11 @@ def main():
     print(f"[INFO] Typed-edge similarity: {args.typed_cos}")
     print(f"[INFO] Edge-set similarity: {args.edge_jaccard}")
     print(f"[INFO] Structural similarity: {args.struct_sim}")
+    print(f"[INFO] Structural source: {args.struct_source}")
+    if args.struct_source in ["sp", "hybrid"]:
+        print(f"[INFO] SP similarity: {args.struct_sp}")
+        if args.struct_source == "hybrid":
+            print(f"[INFO] Hybrid alpha: {args.hybrid_alpha}")
     print(f"[INFO] Output directory: {args.output_dir}")
     
     try:
@@ -258,7 +269,38 @@ def main():
         S_content = read_similarity_matrix(args.content_cos)
         S_typed = read_similarity_matrix(args.typed_cos)
         S_edge = read_similarity_matrix(args.edge_jaccard)
-        S_struct = read_similarity_matrix(args.struct_sim)
+        
+        # Handle structural similarity based on source type
+        if args.struct_source == "counts":
+            S_struct = read_similarity_matrix(args.struct_sim)
+        elif args.struct_source == "sp":
+            if not args.struct_sp:
+                raise ValueError("--struct-sp is required when struct-source is 'sp'")
+            S_struct = read_similarity_matrix(args.struct_sp)
+        elif args.struct_source == "hybrid":
+            if not args.struct_sp:
+                raise ValueError("--struct-sp is required when struct-source is 'hybrid'")
+            S_struct_counts = read_similarity_matrix(args.struct_sim)
+            S_struct_sp = read_similarity_matrix(args.struct_sp)
+            # Blend the two matrices
+            S_struct = args.hybrid_alpha * S_struct_sp + (1 - args.hybrid_alpha) * S_struct_counts
+            # Ensure values are in [0,1] range
+            S_struct = np.clip(S_struct, 0.0, 1.0)
+            print(f"[INFO] Hybrid structural similarity: {args.hybrid_alpha}*SP + {1-args.hybrid_alpha}*counts")
+        elif args.struct_source == "netlsd":
+            # Use NetLSD structural similarity
+            netlsd_path = "struct_similarity_netlsd.csv"
+            if not os.path.exists(netlsd_path):
+                raise ValueError(f"NetLSD similarity matrix not found: {netlsd_path}. Run structural_signature_netlsd.py first.")
+            S_struct = read_similarity_matrix(netlsd_path)
+            print(f"[INFO] Using NetLSD structural similarity: {netlsd_path}")
+        elif args.struct_source == "s1s4":
+            # Use S1→S4 structural similarity
+            s1s4_path = "struct_similarity_s1s4.csv"
+            if not os.path.exists(s1s4_path):
+                raise ValueError(f"S1S4 similarity matrix not found: {s1s4_path}. Run run_s1s4_struct.py first.")
+            S_struct = read_similarity_matrix(s1s4_path)
+            print(f"[INFO] Using S1→S4 structural similarity: {s1s4_path}")
         
         # Align matrices to common model set
         matrices, common_models = align_matrices([S_content, S_typed, S_edge, S_struct])
@@ -296,6 +338,12 @@ def main():
                 "w_typed": normalized_weights[1],
                 "w_edge": normalized_weights[2],
                 "w_struct": normalized_weights[3]
+            },
+            "structural_source": {
+                "type": args.struct_source,
+                "struct_sim_file": args.struct_sim,
+                "struct_sp_file": args.struct_sp if args.struct_source in ["sp", "hybrid"] else None,
+                "hybrid_alpha": args.hybrid_alpha if args.struct_source == "hybrid" else None
             },
             "models": common_models
         }

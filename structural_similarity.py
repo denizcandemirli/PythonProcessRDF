@@ -10,14 +10,14 @@ This script combines the best features from:
 - structural_extension_v25p2.py (latest structural analysis)
 - subgraph_similarity_v2.py (canonical motif detection)
 
-Author: Deniz [Your Surname]
+Author: Deniz Demirli
 Supervisor: Dr. Chao Li (TUM)
 Version: 2025.10
 License: SPDX-License-Identifier: CC-BY-4.0
 """
 
 __version__ = "2025.10"
-__author__ = "Deniz [Your Surname]"
+__author__ = "Deniz Demirli"
 __supervisor__ = "Dr. Chao Li (TUM)"
 
 import os

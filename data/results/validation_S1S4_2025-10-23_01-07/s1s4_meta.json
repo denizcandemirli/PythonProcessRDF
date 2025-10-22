@@ -1,0 +1,44 @@
+{
+  "DEFAULTS": {
+    "dual_thresh": 0.25,
+    "w_motif": 0.5,
+    "w_system": 0.5,
+    "alpha_m5": 0.4,
+    "proxy_penalty": 0.7,
+    "weak_topo_penalty": 0.5
+  },
+  "ELEMENT_RX": {
+    "Beam": "(?:\\b|_)(beam|ifcbeam)(?:\\b|_)",
+    "Column": "(?:\\b|_)(column|ifccolumn)(?:\\b|_)",
+    "Slab": "(?:\\b|_)(slab|deck|floor|plate|ifcslab|ifcfloor|ifcplate|ifccovering)(?:\\b|_)",
+    "Wall": "(?:\\b|_)(wall|shear[- ]?wall|ifcwall|ifcwallstandardcase)(?:\\b|_)",
+    "Brace": "(?:\\b|_)(brace|bracing|tie|strut|ifcstructuralcurvemember|ifcmember)(?:\\b|_)",
+    "Core": "(?:\\b|_)(core|shearcore|liftcore)(?:\\b|_)"
+  },
+  "FUNC_RX": {
+    "LB": "(?:\\b|_)(load\\s*bearing|bearing)(?:\\b|_)",
+    "Shear": "(?:\\b|_)(shear)(?:\\b|_)",
+    "Moment": "(?:\\b|_)(moment|bending)(?:\\b|_)",
+    "Bracing": "(?:\\b|_)(brace|bracing|tie|strut|diaphragm|stiffener)(?:\\b|_)"
+  },
+  "STRONG_TOPO": [
+    "relatedelements",
+    "isconnectedto",
+    "relconnectselements",
+    "relateselement",
+    "intersectingelement",
+    "connectedto",
+    "adjacentelement",
+    "hasstructuralmember"
+  ],
+  "WEAK_TOPO": [
+    "adjacentzone"
+  ],
+  "models": [
+    "Building_05_DG.rdf",
+    "Building_06_DG.rdf",
+    "Freiform_Haus_DG.rdf",
+    "Option03_Revising_DG.rdf",
+    "Option04_Rev03_DG.rdf"
+  ]
+}

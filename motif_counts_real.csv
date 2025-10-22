@@ -1,0 +1,6 @@
+model,M1_isolated,M2_frameNode,M3_wallSlab,M4_core,M5_beamColumn,M6_connection,M7_junction,M8_complex
+Building_05_DG.rdf,0,97,440,289,702912,206,100,384
+Building_06_DG.rdf,0,95,423,184,687412,222,101,333
+Freiform_Haus_DG.rdf,0,101,439,124,686690,318,95,306
+Option03_Revising_DG.rdf,0,95,1145,2306,1546792,848,93,1037
+Option04_Rev03_DG.rdf,0,101,1051,1422,1424396,1202,95,754

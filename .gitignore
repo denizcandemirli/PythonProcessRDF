@@ -1,43 +1,24 @@
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-.pytest_cache/
-.mypy_cache/
-
-# Env / secrets
-.env
+﻿# --- Python/venv ---
 venv/
-env/
 .venv/
-*.pem
-*.key
-*.pfx
-*.crt
-*.cer
-*.p12
-id_rsa*
-*.secrets*
-*.bak
-
-# OS / IDE
-.DS_Store
-Thumbs.db
-.idea/
-.vscode/
-*.code-workspace
-
-# Notebooks
-.ipynb_checkpoints/
-
-# Logs (keep run_log.txt explicitly tracked)
-*.log
-
-# Build / dist
-build/
-dist/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 *.egg-info/
 
-# Outputs (kept via LFS where needed)
-repro_pack/output/
+# --- OS clutter ---
+.DS_Store
+Thumbs.db
 
+# --- IDE/Editor ---
+.vscode/
+.idea/
+
+# --- Outputs to ignore by default ---
+data/results/verification_run_*/
+tmp/
+*.tmp
+
+# --- Optional local bundles ---
+S1S4_results_*.zip

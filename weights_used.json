@@ -1,0 +1,27 @@
+{
+  "weights_input": {
+    "w_content": 0.3,
+    "w_typed": 0.2,
+    "w_edge": 0.1,
+    "w_struct": 0.4
+  },
+  "weights_normalized": {
+    "w_content": 0.3,
+    "w_typed": 0.2,
+    "w_edge": 0.1,
+    "w_struct": 0.4
+  },
+  "structural_source": {
+    "type": "s1s4",
+    "struct_sim_file": ".\\struct_similarity_s1s4.csv",
+    "struct_sp_file": null,
+    "hybrid_alpha": null
+  },
+  "models": [
+    "Building_05_DG.rdf",
+    "Building_06_DG.rdf",
+    "Freiform_Haus_DG.rdf",
+    "Option03_Revising_DG.rdf",
+    "Option04_Rev03_DG.rdf"
+  ]
+}

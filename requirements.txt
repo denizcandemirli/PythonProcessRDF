@@ -1,2 +1,7 @@
 pandas==2.2.2
 rdflib==6.3.2
+networkx==3.2.1
+matplotlib==3.8.2
+seaborn==0.13.0
+numpy==1.26.3
+scipy==1.11.4

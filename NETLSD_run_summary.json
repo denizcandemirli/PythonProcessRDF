@@ -1,0 +1,26 @@
+{
+  "sp_like_channel": "NetLSD",
+  "sp_mean_offdiag": 0.9988,
+  "sp_min_offdiag": 0.9972,
+  "sp_max_offdiag": 1.0,
+  "top_pairs": [
+    {
+      "sim": 0.9998,
+      "a": "Building_06_DG.rdf",
+      "b": "Freiform_Haus_DG.rdf"
+    },
+    {
+      "sim": 0.9998,
+      "a": "Building_05_DG.rdf",
+      "b": "Building_06_DG.rdf"
+    },
+    {
+      "sim": 0.9998,
+      "a": "Building_05_DG.rdf",
+      "b": "Freiform_Haus_DG.rdf"
+    }
+  ],
+  "total_mean_offdiag": 0.7376,
+  "total_min_offdiag": 0.6704,
+  "total_max_offdiag": 0.868
+}

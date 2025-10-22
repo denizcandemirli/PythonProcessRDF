@@ -1,0 +1,15 @@
+{
+  "mean_offdiag_struct": 0.6667,
+  "min_offdiag_struct": 0.0,
+  "max_offdiag_struct": 0.0,
+  "files": {
+    "inv": "s1_inventory.csv",
+    "motifs": "s2_motifs.csv",
+    "systems": "s3_system_scores.csv",
+    "vectors": "s4_motif_share_vectors.csv",
+    "S_motif": "struct_similarity_s1s4_motif.csv",
+    "S_system": "struct_similarity_s1s4_system.csv",
+    "S_struct": "struct_similarity_s1s4.csv",
+    "meta": "s1s4_meta.json"
+  }
+}

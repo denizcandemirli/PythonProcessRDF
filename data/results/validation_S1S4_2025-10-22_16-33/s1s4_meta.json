@@ -1,0 +1,69 @@
+{
+  "ELEMENT_TYPES": {
+    "Wall": [
+      "IfcWall",
+      "wall"
+    ],
+    "Slab": [
+      "IfcSlab",
+      "slab",
+      "floor"
+    ],
+    "Column": [
+      "IfcColumn",
+      "column"
+    ],
+    "Beam": [
+      "IfcBeam",
+      "beam"
+    ],
+    "Brace": [
+      "IfcStructuralCurveMember",
+      "brace",
+      "bracing"
+    ],
+    "Core": [
+      "Core",
+      "core",
+      "liftCore",
+      "shearCore"
+    ]
+  },
+  "REL_PREDICATES": {
+    "adjacent": [
+      "adjacentElement",
+      "AdjacentComponent",
+      "adjacentZone",
+      "adjacentElementOf"
+    ],
+    "intersect": [
+      "intersectingElement",
+      "intersects"
+    ],
+    "partOf": [
+      "partOf",
+      "hasPart",
+      "isPartOf",
+      "containsElement"
+    ]
+  },
+  "SYSTEM_WEIGHTS": {
+    "Frame": {
+      "M2": 0.6,
+      "M5_moment": 0.4
+    },
+    "Braced": {
+      "M2b": 0.7,
+      "M5_bracing": 0.3
+    },
+    "Wall": {
+      "M3": 0.7,
+      "M5_shear": 0.3
+    },
+    "Dual_min_floor": 0.2
+  },
+  "DEFAULTS": {
+    "min_edges_per_layer": 3,
+    "normalize_densities_per": 100.0
+  }
+}
