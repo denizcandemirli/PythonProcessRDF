@@ -1,0 +1,33 @@
+## Stage 4: CLEAN ✅
+
+This release contains:
+- S1→S4 structural channel outputs
+- Total similarity fusion matrices
+- Visualizations (heatmaps, dendrogram, component bars)
+- Reproducible run scripts & README
+
+### Acceptance JSON (from the latest clean run)
+{
+  "S1S4_mean_offdiag": 0.8741,
+  "S1S4_min_offdiag": 0.7440,
+  "S1S4_max_offdiag": 1.0000,
+  "TOTAL_mean_offdiag": 0.6878,
+  "TOTAL_min_offdiag": 0.5686,
+  "TOTAL_max_offdiag": 0.8673
+}
+
+### Where to look
+- `data/results/validation_S1S4_<timestamp>/`  → raw S1→S4 CSVs and meta
+- `data/results/report_S1S4_<timestamp>/`      → total_similarity_matrix.csv + pairwise_total_summary.csv
+- `data/results/report_S1S4_<timestamp>_viz/`  → heatmaps, dendrogram, component bars
+
+### Reproduce locally
+```powershell
+# Windows PowerShell
+& .\venv\Scripts\Activate.ps1
+python run_s1s4_struct.py --models_dir data/RDF_models --out_dir .
+$CONTENT = (Get-ChildItem -Recurse -File -Filter "similarity_content_cosine.csv"    | Select-Object -First 1).FullName
+$TYPED   = (Get-ChildItem -Recurse -File -Filter "similarity_typed_edge_cosine.csv" | Select-Object -First 1).FullName
+$EDGESET = (Get-ChildItem -Recurse -File -Filter "similarity_edge_sets_jaccard.csv" | Select-Object -First 1).FullName
+python total_similarity.py --content-cos "$CONTENT" --typed-cos "$TYPED" --edge-jaccard "$EDGESET" --struct-sim ".\struct_similarity_s1s4.csv" --struct-source s1s4 --output-dir .
+python visualize_similarity.py --input-dir . --output-dir . --include-s1s4 --include-sp --annot
